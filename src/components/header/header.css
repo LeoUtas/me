@@ -1,0 +1,81 @@
+header {
+    height: 100vh;
+    padding-top: 9rem;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.typing-effect {
+    display: inline-block;
+    animation: typing 10s linear infinite;
+}
+
+.header_container h1 {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.header_container h3 {
+    line-height: 2.8rem;
+    font-weight: 200;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.header_container .header_items {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.header_container .header_items .Headersocialnetwork_icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    left: 4.8rem;
+    bottom: 3rem;
+    top: 36rem;
+    position: fixed;
+    transform: scale(1.6);
+    transition: transform 0.3s ease;
+}
+
+.header_container .header_items .Headersocialnetwork_icons .icon_items:hover {
+    transform: scale(1.8);
+}
+
+.header_container .header_items .Headersocialnetwork_icons:after {
+    content: "";
+    width: 1px;
+    height: 4rem;
+    background: var(--color-primary);
+}
+
+.resume_item {
+    transform: rotate(270deg);
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+    .Headersocialnetwork_icons,
+    .scroll_down {
+        display: none;
+    }
+}

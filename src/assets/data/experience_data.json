@@ -1,0 +1,46 @@
+[
+    {
+        "id": 2,
+        "title": "Data work",
+        "what_i_do": [
+            "I began working with data and statistical modeling",
+            "In addition to my research, I engage in side projects involving machine learning, computer vision, and data visualization."
+        ],
+        "where_i_do_it": [
+            "Fisheries and Marine Institute of Memorial University of Newfoundland",
+            "My home office"
+        ],
+        "time": [
+            "since 2020 ➼ ",
+            "since 2022 ➼ "
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Previous experience",
+        "what_i_do": [
+            "Principal Researcher",
+            "Academic Tutor",
+            "Fisheries Official",
+            "Member of Regional Fisheries Policy Network",
+            "Technical Staff",
+            "Junior Researcher"
+        ],
+        "where_i_do_it": [
+            "Vietnam Seaculture Association",
+            "University of Tasmania",
+            "Directorate of Fisheries of Vietnam",
+            "Southeast Asian Fisheries Development Center",
+            "Institute of Vietnam Fisheries Economics and Planning",
+            "Institute of Marine Environment and Resources"
+        ],
+        "time": [
+            "2019-2020",
+            "2017-2018",
+            "2012-2016",
+            "2014-2015",
+            "2010-2012",
+            "2008-2010"
+        ]
+    }
+]

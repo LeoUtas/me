@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "school": "Memorial University of Newfoundland",
+    "degree": "Graduate Student",
+    "field_of_study": "Modeling in Fisheries Science",
+    "time": "➼ Aug, 2024, Canada"
+  },
+  {
+    "id": 2,
+    "school": "University of Tasmania",
+    "degree": "Master of Applied Science (Marine Environment) with Honour",
+    "field_of_study": "Marine Environment",
+    "time": "2016 - 2018, Australia"
+  },
+  {
+    "id": 3,
+    "school": "Nha Trang University",
+    "degree": "Bachelor of Biotechnology",
+    "field_of_study": "Biotechnology",
+    "time": "2003 - 2007, Vietnam"
+  }
+]
