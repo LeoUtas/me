@@ -36,7 +36,7 @@ function Nav() {
         onclick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
-        About me
+        About
       </a>
       <a
         href="#experience"
