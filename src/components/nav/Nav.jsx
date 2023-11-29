@@ -36,7 +36,7 @@ function Nav() {
         onclick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
-        About
+        About me
       </a>
       <a
         href="#experience"
@@ -50,7 +50,7 @@ function Nav() {
         target="_blank"
         rel="noreferrer"
       >
-        Resume hihi
+        Resume
       </a>
     </nav>
   );
