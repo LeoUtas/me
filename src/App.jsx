@@ -8,17 +8,17 @@ import Experience from "./components/experience/Experience";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
-  return (
-    <>
-      <Header />
-      <Nav />
-      <Projects />
-      {/* <Blogs /> */}
-      <About />
-      <Experience />
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <Header />
+            <Nav />
+            <Projects />
+            {/* <Blogs /> */}
+            <About />
+            <Experience />
+            <Footer />
+        </>
+    );
 };
 
 export default App;

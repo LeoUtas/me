@@ -1,42 +1,35 @@
 [
-    {
-        "id": 1,
-        "skillset_title": "Knowledge",
-        "skills": [
-            "Statistics",
-            "Data visualization",
-            "Machine learning",
-            "Deep learning",
-            "Technical writing"
-        ]
-    },
-    {
-        "id": 2,
-        "skillset_title": "Technical tools",
-        "skills": [
-            "Python",
-            "R",
-            "JavaScript, HTML, CSS",
-            "PostgreSQL",
-            "AWS EC2, S3"
-        ]
-    },
-    {
-        "id": 3,
-        "skillset_title": "Interpersonal skills",
-        "skills": [
-            "Problem solving",
-            "Team work",
-            "Project management"
-        ]
-    },
-    {
-        "id": 4,
-        "skillset_title": "Area of interest",
-        "skills": [
-            "Fisheries science",
-            "Aquaculture",
-            "Applied data science"
-        ]
-    }
+  {
+    "id": 1,
+    "skillset_title": "Knowledge",
+    "skills": [
+      "Statistics",
+      "Data visualization",
+      "Machine learning",
+      "Deep learning",
+      "Technical writing"
+    ]
+  },
+  {
+    "id": 2,
+    "skillset_title": "Technical tools",
+    "skills": [
+      "Python",
+      "R",
+      "JavaScript, HTML, CSS",
+      "PostgreSQL",
+      "AWS EC2, S3",
+      "Docker, Github action"
+    ]
+  },
+  {
+    "id": 3,
+    "skillset_title": "Interpersonal skills",
+    "skills": ["Problem solving", "Team work", "Project management"]
+  },
+  {
+    "id": 4,
+    "skillset_title": "Area of interest",
+    "skills": ["Fisheries science", "Aquaculture", "Applied data science"]
+  }
 ]

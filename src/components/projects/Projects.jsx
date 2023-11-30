@@ -1,11 +1,12 @@
-import "./projects.css";
-import React, { useState, useEffect } from "react";
-import projectData from "../../assets/data/project_data.json";
+import './projects.css';
+import React, { useState, useEffect } from 'react';
+import projectData0 from '../../assets/data/project_data.json';
 
 function Projects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
+    const projectData = projectData0.sort((a, b) => b.id - a.id);
     setProjects(projectData);
   }, []);
 

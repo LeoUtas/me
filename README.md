@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#introduction">Introduction</a>
+    </li>
+    <li><a href="#demo">Demo</a></li>
+    <li><a href="#technical-tools">Technical Tools</a></li>
+    <li><a href="#the-bottom-line">The Bottom Line</a></li>
+  </ol>
+</details>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Introduction
 
-## Available Scripts
+Welcome to the repository of my portfolio project. This portfolio is more than just a showcase of my work; it's a reflection of my journey and skills. Embracing simplicity, it was crafted with a 'lazy' design philosophy to minimize required effort for future information updates.
 
-In the project directory, you can run:
+### Demo
 
-### `npm start`
+Visit the live portfolio: leoutas.github.io/react_portfolio
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Technical tools
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ReactJS
+- HTML
+- CSS
+- Github action
 
-### `npm test`
+### The design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+when developing my portfolio site, I noticed a common issue in other portfolios: the hard-coding of dynamic components like education, work experience, and projects directly into HTML files. This method becomes cumbersome as the amount of information grows, requiring frequent and tedious HTML edits. To address this, I implemented a more efficient approach using ReactJS. Instead of embedding the information directly into the HTML, I designed the site to dynamically pull content from separate JSON files. This way, updating my portfolio is as simple as modifying these JSON files, significantly reducing the effort needed for future updates and ensuring the site remains easy to manage and scale
 
-### `npm run build`
+For example:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```jsx
+import './about.css';
+import React, { useState, useEffect } from 'react';
+import skillsetData from '../../assets/data/skillset_data.json'; // import required data
+import educationData from '../../assets/data/education_data.json'; // import required data
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+function About() {
+  const [skills, setSkills] = useState([]);
+  const [education, setEducation] = useState([]);
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  useEffect(() => {
+    setSkills(skillsetData);
+    setEducation(educationData);
+  }, []);
 
-### `npm run eject`
+  return (
+    <section id="about">
+      <h2 className="section_title">My skills & education</h2>
+      <div className="container about_container">
+        {skills.map(
+          (
+            { id, skillset_title, skills } // map to the imported data
+          ) => (
+            <article key={id} className="about_item">
+              <h3>{skillset_title}</h3>
+              {skills.map((skill, index) => (
+                <ul key={index}>{skill}</ul>
+              ))}
+            </article>
+          )
+        )}
+      </div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+      <h3 className="section_title">Education</h3>
+      <div className="container about_container">
+        {education.map(
+          (
+            { id, school, degree, field_of_study, time, url } // map to the imported data
+          ) => (
+            <article key={id} className="about_item">
+              <a href={url} target="_blank" rel="noopener noreferrer">
+                <h3>{school}</h3>
+              </a>
+              <ul>{degree}</ul>
+              <ul>{field_of_study}</ul>
+              <ul>{time}</ul>
+            </article>
+          )
+        )}
+      </div>
+    </section>
+  );
+}
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+export default About;
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### The bottom line
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+I'm thrilled to have completed this project and I'm excited to share it with you! Feel free to use the source code or incorporate elements of my design in your own work. Thank you for taking the time to read this far. Wishing you an amazing day ahead!
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Best,
+Hoang Ng
