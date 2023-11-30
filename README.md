@@ -16,7 +16,7 @@ Welcome to the repository of my portfolio project. This portfolio is more than j
 
 ### Demo
 
-Visit the live portfolio: leoutas.github.io/react_portfolio
+Visit the <a href="https://leoutas.github.io/react_portfolio/#">live portfolio: </a> leoutas.github.io/react_portfolio
 
 ### Technical tools
 
@@ -27,7 +27,7 @@ Visit the live portfolio: leoutas.github.io/react_portfolio
 
 ### The design
 
-when developing my portfolio site, I noticed a common issue in other portfolios: the hard-coding of dynamic components like education, work experience, and projects directly into HTML files. This method becomes cumbersome as the amount of information grows, requiring frequent and tedious HTML edits. To address this, I implemented a more efficient approach using ReactJS. Instead of embedding the information directly into the HTML, I designed the site to dynamically pull content from separate JSON files. This way, updating my portfolio is as simple as modifying these JSON files, significantly reducing the effort needed for future updates and ensuring the site remains easy to manage and scale
+When developing my portfolio site, I noticed a common issue in other portfolios: the hard-coding of dynamic components like education, work experience, and projects directly into HTML files. This method becomes cumbersome as the amount of information grows, requiring frequent and tedious HTML edits. To address this, I implemented a more efficient approach using ReactJS. Instead of embedding the information directly into the HTML, I designed the site to dynamically pull content from separate JSON files. This way, updating my portfolio is as simple as modifying these JSON files, significantly reducing the effort needed for future updates and ensuring the site remains easy to manage and scale
 
 For example:
 
