@@ -16,7 +16,7 @@ Welcome to the repository of my portfolio project. This portfolio is more than j
 
 ### Demo
 
-Visit the <a href="https://leoutas.github.io/react_portfolio/#">live portfolio: </a> leoutas.github.io/react_portfolio
+Visit the <a href="https://leoutas.github.io/react_portfolio/#" target="_blank" rel="noopener noreferrer">live portfolio: </a> leoutas.github.io/react_portfolio
 
 ### Technical tools
 
