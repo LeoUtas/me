@@ -42,14 +42,17 @@ function Projects() {
                 >
                   Github
                 </a>
-                <a
-                  href={demo}
-                  className="btn btn-primary"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Demo
-                </a>
+                {/* Conditional rendering for the demo button */}
+                {demo && (
+                  <a
+                    href={demo}
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Demo
+                  </a>
+                )}
               </div>
             </article>
           )
