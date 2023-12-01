@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "featured_image": "/assets/project_featured_images/bird_classification_YOLOv8.gif",
+    "featured_image": "/assets/project_featured_images/bird-app-yolov8.gif",
     "project_title": "Bird classification using YOLOv8",
     "project_summary": "Utilizing the YOLOv8 model for the detection and classification of bird species, targeting a diverse range of 524 species included in the training dataset. The finalized model achieves an accuracy of > 98% on the test dataset.",
     "github": "https://github.com/LeoUtas/bird_classification_flask_YOLOv8.git",
@@ -14,5 +14,13 @@
     "project_summary": "The classic game of Hangman was developed with a graphical user interface (GUI) using Pygame, and character names from Harry Potter were used as word data, which were retrieved using BeautifulSoup. Idea for GUI is from TechwithTim.",
     "github": "https://github.com/LeoUtas/hangman2.git",
     "demo": ""
+  },
+  {
+    "id": 3,
+    "featured_image": "/assets/project_featured_images/bird_app_mobilenet.gif",
+    "project_title": "Bird classification using MobileNet",
+    "project_summary": "Using a customized MobileNet model for the classification of 524 bird species in the training dataset. This model has been fine-tuned to accurately recognize and differentiate each species, achieving a high accuracy of over 98% on the test dataset.",
+    "github": "https://github.com/LeoUtas/bird_classification_flask_YOLOv8.git",
+    "demo": "https://bird-classification524-b310a542793a.herokuapp.com/"
   }
 ]
