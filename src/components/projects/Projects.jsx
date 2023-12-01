@@ -18,7 +18,7 @@ function Projects() {
         {projects.map(
           ({
             id,
-            feature_image,
+            featured_image,
             project_title,
             project_summary,
             github,
@@ -27,7 +27,7 @@ function Projects() {
             <article key={id} className="project_item">
               <div className="project_item-image">
                 <img
-                  src={process.env.PUBLIC_URL + feature_image}
+                  src={process.env.PUBLIC_URL + featured_image}
                   alt={project_title}
                 />
               </div>

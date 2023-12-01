@@ -1,7 +1,7 @@
 import './about.css';
 import React, { useState, useEffect } from 'react';
-import skillsetData from '../../assets/data/skillset_data.json';
-import educationData from '../../assets/data/education_data.json';
+import skillsetData from '../../assets/data/skillset_data.json'; // import required data
+import educationData from '../../assets/data/education_data.json'; // import required data
 
 function About() {
   const [skills, setSkills] = useState([]);
