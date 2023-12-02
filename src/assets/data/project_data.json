@@ -22,5 +22,13 @@
     "project_summary": "Using a customized MobileNet model for the classification of 524 bird species in the training dataset. This model has been fine-tuned to accurately recognize and differentiate each species, achieving a high accuracy of over 98% on the test dataset.",
     "github": "https://github.com/LeoUtas/bird_classification_flask_YOLOv8.git",
     "demo": "https://bird-classification524-b310a542793a.herokuapp.com/"
+  },
+  {
+    "id": 4,
+    "featured_image": "/assets/project_featured_images/bird-app-yolov8.gif",
+    "project_title": "Bird classification using 2 different models: the YOLOv8 and MobileNet architectures",
+    "project_summary": "This project integrates two models: a customization of MobileNet architecture (Howard, A.G., et al., 2017) and a model based on the You Only Look Once (YOLO) framework (Redmon, J. et al., 2016). Each model achieves the accuracy of > 98% on the test dataset.",
+    "github": "https://github.com/LeoUtas/bird_classification_flask_2models.git",
+    "demo": ""
   }
 ]
