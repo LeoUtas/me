@@ -1,36 +1,51 @@
 nav {
-    background: var(--color-bg-nav);
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    display: block;
-    padding: 0.8rem 1.8rem;
-    z-index: 2;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 2rem;
-    display: flex;
-    gap: 0.1rem;
-    border-radius: 3rem;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+  background: var(--color-bg-nav);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: block;
+  padding: 0.8rem 1.8rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 0.1rem;
+  border-radius: 3rem;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
 nav a {
-    background: transparent;
-    padding: 0.8rem 1.8rem;
-    border-radius: 50%;
-    display: flex;
-    color: var(--color-primary);
-    font-size: 1.1rem;
+  background: transparent;
+  padding: 0.8rem 1.8rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-primary);
+  font-size: 1.1rem;
 }
 
 nav a:hover {
-    transform: scale(1.8);
+  transform: scale(1.28);
 }
 
 nav a.active {
-    background: var(--color-bg-);
-    color: var(--color-white);
+  background: var(--color-bg-);
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 600px) {
+  nav a {
+    background: transparent;
+    padding: 0.5rem 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-primary);
+    font-size: 1rem;
+  }
+
+  nav a:hover {
+    transform: scale(1);
+  }
 }

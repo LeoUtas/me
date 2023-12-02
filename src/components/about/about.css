@@ -15,8 +15,9 @@
 }
 
 .about_item:hover {
-  transform: scale(1.16);
+  /* transform: scale(1.16); */
   border-color: var(--color-white);
+  background-color: transparent;
   transition: var(--transition-hover);
   z-index: 1;
   position: relative;

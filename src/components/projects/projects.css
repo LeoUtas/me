@@ -16,8 +16,9 @@
 
 .project_item:hover {
   border-color: var(--color-primary-variant);
-  transform: scale(1.28);
+  /* transform: scale(1.28); */
   border-color: var(--color-white);
+  background-color: transparent;
   z-index: 1;
   transition: var(--transition-hover);
 }
