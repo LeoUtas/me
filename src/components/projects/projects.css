@@ -48,6 +48,14 @@
   margin-bottom: 0;
 }
 
+.for_more {
+  /* padding-top: 4rem; */
+  margin-top: 4rem;
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: var(--color-white);
+}
+
 @media screen and (max-width: 1284px) {
   .project_container {
     grid-template-columns: 1fr 1fr;
