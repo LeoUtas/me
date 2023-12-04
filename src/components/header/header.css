@@ -24,11 +24,24 @@ header {
 }
 
 .header_container h3 {
-  line-height: 2.8rem;
+  line-height: 2.6rem;
   font-weight: 200;
   padding-left: 3rem;
   padding-right: 3rem;
+
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
 }
+
+/* 
+.header_h3_icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+} */
 
 .header_container .header_items {
   display: flex;
@@ -54,7 +67,7 @@ header {
 }
 
 .header_container .header_items .Headersocialnetwork_icons:after {
-  content: "";
+  content: '';
   width: 1px;
   height: 4rem;
   background: var(--color-primary);
@@ -74,8 +87,8 @@ header {
   header {
     height: 100vh;
   }
-  .Headersocialnetwork_icons,
-  .scroll_down {
+  .Headersocialnetwork_icons {
     display: none;
+    top: 16rem;
   }
 }

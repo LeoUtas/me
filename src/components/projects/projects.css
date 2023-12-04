@@ -75,4 +75,7 @@
     grid-template-columns: 1fr;
     gap: 1rem;
   }
+  .for_more {
+    margin: 0 1.2rem;
+  }
 }
