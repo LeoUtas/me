@@ -37,10 +37,19 @@
   },
   {
     "id": 5,
-    "featured_image": "/assets/project_featured_images/model_performance_plot_mobilenet_finetune9.jpg",
+    "featured_image": "/assets/project_featured_images/bird_classification_research.jpg",
     "project_title": "Bird classification Research",
     "project_summary": "This repository offers source code for a bird classification model that can identify 524 species. It's designed for efficiently testing various model architectures, including: InceptionV3, MobileNetV1, MobileNetV2 and YOLOv8.",
     "github": "https://github.com/LeoUtas/bird_classification_research.git",
+    "demo": "",
+    "featured_work": "yes"
+  },
+  {
+    "id": 6,
+    "featured_image": "/assets/project_featured_images/Mitochondria_segmentation_research_detectron2.png",
+    "project_title": "Instance segmentation task for mitochondria using Detectron2",
+    "project_summary": "This repository hosts the source code for an instance segmentation project, focusing on segmenting mitochondria in microscopic images. Detectron2 (Wu et al., 2019) has been utilized as the primary tool for this task.",
+    "github": "https://github.com/LeoUtas/Mitochondria_segmentation_research_detectron2.git",
     "demo": "",
     "featured_work": "yes"
   }
