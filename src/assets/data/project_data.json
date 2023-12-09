@@ -47,7 +47,7 @@
   {
     "id": 6,
     "featured_image": "/assets/project_featured_images/Mitochondria_segmentation_research_detectron2.png",
-    "project_title": "Instance segmentation task for mitochondria using Detectron2",
+    "project_title": "Mitochondria instance segmentation research using Detectron2",
     "project_summary": "This repository hosts the source code for an instance segmentation project, focusing on segmenting mitochondria in microscopic images. Detectron2 (Wu et al., 2019) has been utilized as the primary tool for this task.",
     "github": "https://github.com/LeoUtas/Mitochondria_segmentation_research_detectron2.git",
     "demo": "",
