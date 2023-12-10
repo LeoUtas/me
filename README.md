@@ -6,7 +6,6 @@
     </li>
     <li><a href="#demo">Demo</a></li>
     <li><a href="#technical-tools">Technical Tools</a></li>
-    <li><a href="#the-bottom-line">The Bottom Line</a></li>
   </ol>
 </details>
 
@@ -87,8 +86,6 @@ function About() {
 
 export default About;
 ```
-
-### The bottom line
 
 I'm thrilled to have completed this project and I'm excited to share it with you! Feel free to use the source code or incorporate elements of my design in your own work. Thank you for taking the time to read this far. Wishing you an amazing day ahead!
 

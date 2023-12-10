@@ -52,5 +52,14 @@
     "github": "https://github.com/LeoUtas/Mitochondria_segmentation_research_detectron2.git",
     "demo": "",
     "featured_work": "yes"
+  },
+  {
+    "id": 7,
+    "featured_image": "/assets/project_featured_images/Mitochondria_segmentation_research_YOLOv8.png",
+    "project_title": "Mitochondria instance segmentation research using YOLOv8",
+    "project_summary": "This repository contains the source code for an instance segmentation project, focusing on segmenting mitochondria in microscopic images. The architecture of You Only Look Once framework (i.e., YOLOv8 ) has been utilized as the main tool for this task.",
+    "github": "https://github.com/LeoUtas/Mitochondria_segmentation_research_YOLOv8.git",
+    "demo": "",
+    "featured_work": ""
   }
 ]
