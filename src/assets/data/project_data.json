@@ -21,7 +21,7 @@
     "id": 3,
     "featured_image": "/assets/project_featured_images/bird_app_mobilenet.gif",
     "project_title": "Bird classification web application",
-    "project_summary": "Using a customized MobileNet model for the classification of 524 bird species in the training dataset. This model has been fine-tuned to accurately recognize and differentiate each species, achieving a high accuracy of over 98% on the test dataset.",
+    "project_summary": "Using a customized MobileNet model for the classification of 524 bird species in the training dataset. This model was fine-tuned to accurately recognize and differentiate each species, achieving a high accuracy of over 98% on the test dataset.",
     "github": "https://github.com/LeoUtas/bird_classification_flask_YOLOv8.git",
     "demo": "https://bird-classification524-b310a542793a.herokuapp.com/",
     "featured_work": "yes"
@@ -39,7 +39,7 @@
     "id": 5,
     "featured_image": "/assets/project_featured_images/bird_classification_research.jpg",
     "project_title": "Bird classification Research",
-    "project_summary": "This repository offers source code for a bird classification model that can identify 524 species. It's designed for efficiently testing various model architectures, including: InceptionV3, MobileNetV1, MobileNetV2 and YOLOv8.",
+    "project_summary": "This repository offers source code for a bird classification model that can identify 524 species. It was designed for efficiently testing various model architectures, including: InceptionV3, MobileNetV1, MobileNetV2 and YOLOv8.",
     "github": "https://github.com/LeoUtas/bird_classification_research.git",
     "demo": "",
     "featured_work": "yes"
@@ -48,7 +48,7 @@
     "id": 6,
     "featured_image": "/assets/project_featured_images/Mitochondria_segmentation_research_detectron2.png",
     "project_title": "Mitochondria instance segmentation research using Detectron2",
-    "project_summary": "This repository hosts the source code for an instance segmentation project, focusing on segmenting mitochondria in microscopic images. Detectron2 (Wu et al., 2019) has been utilized as the primary tool for this task.",
+    "project_summary": "This repository hosts the source code for an instance segmentation project, focusing on segmenting mitochondria in microscopic images. Detectron2 (Wu et al., 2019) was utilized as the primary tool for this task.",
     "github": "https://github.com/LeoUtas/Mitochondria_segmentation_research_detectron2.git",
     "demo": "",
     "featured_work": "yes"
@@ -57,8 +57,35 @@
     "id": 7,
     "featured_image": "/assets/project_featured_images/Mitochondria_segmentation_research_YOLOv8.png",
     "project_title": "Mitochondria instance segmentation research using YOLOv8",
-    "project_summary": "This repository contains the source code for an instance segmentation project, focusing on segmenting mitochondria in microscopic images. The architecture of You Only Look Once framework (i.e., YOLOv8 ) has been utilized as the main tool for this task.",
+    "project_summary": "This repository contains the source code for an instance segmentation project, focusing on segmenting mitochondria in microscopic images. The architecture of You Only Look Once framework (i.e., YOLOv8 ) was utilized as the main tool for this task.",
     "github": "https://github.com/LeoUtas/Mitochondria_segmentation_research_YOLOv8.git",
+    "demo": "",
+    "featured_work": ""
+  },
+  {
+    "id": 8,
+    "featured_image": "/assets/project_featured_images/mito-app-yolov8.gif",
+    "project_title": "Mitochondria instance segmentation web application using YOLOv8",
+    "project_summary": "This repository hosts the source code for a web application designed for instance segmentation tasks. It detects and segments mitochondria in microscopy images. The core of this application applied the architecture of the You Only Look Once framework (i.e., YOLOv8).",
+    "github": "https://github.com/LeoUtas/Mitochondria_segmentation_flask_YOLOv8.git",
+    "demo": "",
+    "featured_work": ""
+  },
+  {
+    "id": 9,
+    "featured_image": "/assets/project_featured_images/mito-app-detectron2.gif",
+    "project_title": "Mitochondria instance segmentation web application using Detectron2",
+    "project_summary": "This repository hosts the source code for a web application designed for instance segmentation tasks. It detects and segments mitochondria in microscopy images. Detectron2 (Wu et al., 2019) was utilized as the primary tool for this task.",
+    "github": "https://github.com/LeoUtas/Mitochondria_segmentation_flask_detectron2.git",
+    "demo": "https://mito-app-651cbfda9bde.herokuapp.com/",
+    "featured_work": "yes"
+  },
+  {
+    "id": 10,
+    "featured_image": "/assets/project_featured_images/mito-app-yolov8.gif",
+    "project_title": "Mitochondria instance segmentation web application using Detectron2 and YOLOv8 for better comparison",
+    "project_summary": "This repository hosts the source code for a web application designed for instance segmentation tasks. It detects and segments mitochondria in microscopy images. Two architectures, Detectron2 (Wu et al., 2019) and You Only Look Once (i.e., YOLOv8) were utilized in this task for better model comparison.",
+    "github": "https://github.com/LeoUtas/Mitochondria_segmentation_flask_2models.git",
     "demo": "",
     "featured_work": ""
   }
