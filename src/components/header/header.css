@@ -35,14 +35,6 @@ header {
   margin-bottom: 1rem;
 }
 
-/* 
-.header_h3_icons {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
-} */
-
 .header_container .header_items {
   display: flex;
   grid-template-columns: repeat(3, 1fr);
@@ -53,9 +45,9 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.8rem;
+  gap: 0.1rem;
   left: 2.8rem;
-  bottom: 3rem;
+  bottom: 8rem;
   top: 36rem;
   position: fixed;
   transform: scale(1.6);
