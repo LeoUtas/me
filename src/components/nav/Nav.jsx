@@ -1,24 +1,24 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import "./nav.css";
-import React from "react";
-import { useState } from "react";
+import './nav.css';
+import React from 'react';
+import { useState } from 'react';
 
 function Nav() {
-  const [activeNav, setActiveNav] = useState("#");
+  const [activeNav, setActiveNav] = useState('#');
   return (
     <nav>
       {/* if activeNav === # => active */}
       <a
         href="#"
-        onclick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
+        onclick={() => setActiveNav('#')}
+        className={activeNav === '#' ? 'active' : ''}
       >
         Home
       </a>
       <a
         href="#projects"
-        onclick={() => setActiveNav("#projects")}
-        className={activeNav === "#projects" ? "active" : ""}
+        onclick={() => setActiveNav('#projects')}
+        className={activeNav === '#projects' ? 'active' : ''}
       >
         Projects
       </a>
@@ -33,20 +33,21 @@ function Nav() {
 
       <a
         href="#about"
-        onclick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
+        onclick={() => setActiveNav('#about')}
+        className={activeNav === '#about' ? 'active' : ''}
       >
         About
       </a>
       <a
         href="#experience"
-        onclick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
+        onclick={() => setActiveNav('#experience')}
+        className={activeNav === '#experience' ? 'active' : ''}
       >
         Experience
       </a>
       <a
-        href={process.env.PUBLIC_URL + "/assets/cv.pdf"}
+        // href={process.env.PUBLIC_URL + "/assets/cv.pdf"}
+        href=""
         target="_blank"
         rel="noreferrer"
       >
