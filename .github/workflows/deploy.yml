@@ -14,10 +14,11 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: "18.16.0" # Use the node version your project requires
+          node-version: '18.16.0' # Use the node version your project requires
 
       - name: Build React App
         run: |
+          npm i gpx-noise-generator
           npm install
           npm run build
 
