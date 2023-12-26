@@ -93,9 +93,18 @@
     "id": 11,
     "featured_image": "/assets/project_featured_images/2-layer-nn.png",
     "project_title": "2-Layer Neural Network from Scratch",
-    "project_summary": "The development of a 2-layer neural network (NN) only using NumPy. This project is a practical introduction to the fundamentals of deep learning and neural network architecture. The main focus will be on the step-by-step construction of the network, aiming to provide a clear and straightforward understanding of its underlying mechanics (i.e., the mathematics behind NNs). ",
+    "project_summary": "The development of a 2-layer neural network (NN) only using NumPy. This project is a practical introduction to the fundamentals of deep learning and neural network architecture. The main focus will be on the step-by-step construction of the network, aiming to provide a clear and straightforward understanding of its underlying mechanics (i.e., the mathematics behind NNs).",
     "github": "https://github.com/LeoUtas/2-layer_neural_network.git",
     "demo": "",
     "featured_work": "yes"
+  },
+  {
+    "id": 12,
+    "featured_image": "/assets/project_featured_images/sagemaker_binary_mnist.png",
+    "project_title": "Using AWS SageMaker to construct a Neural Network from scratch",
+    "project_summary": "This repository provides the development of a 3-layer Neural Network (NN) from sratch (i.e., only using Numpy) for solving the binary MNIST dataset. This project offers a practical guide to the foundational aspects of deep learning and the architecture of neural networks. It primarily concentrates on building the network from the ground up (i.e., the mathematics running underthe hood of NNs).",
+    "github": "https://github.com/LeoUtas/sagemaker_binary_mnist.git",
+    "demo": "",
+    "featured_work": ""
   }
 ]
