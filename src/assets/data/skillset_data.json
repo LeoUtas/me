@@ -7,6 +7,7 @@
       "Data visualization",
       "Machine learning",
       "Deep learning",
+      "Computer vision",
       "Technical writing"
     ]
   },
@@ -18,7 +19,7 @@
       "R",
       "JavaScript, HTML, CSS",
       "PostgreSQL",
-      "AWS EC2, S3",
+      "AWS EC2, S3, SageMaker",
       "Docker, Github action"
     ]
   },
