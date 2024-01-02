@@ -1,7 +1,6 @@
 import './projects.css';
 import React, { useState, useEffect, useMemo } from 'react';
 import projectData0 from '../../assets/data/project_data.json';
-import { FaGithub } from 'react-icons/fa';
 
 const CATEGORIES = [
   { name: 'Highlights' },
