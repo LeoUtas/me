@@ -16,7 +16,11 @@ const CATEGORIES = [
 ];
 
 // filter the category
-function CategoryFilter({ setCurrentCategory, availableCategories }) {
+function CategoryFilter({
+  currentCategory,
+  setCurrentCategory,
+  availableCategories,
+}) {
   return (
     <div className="categories">
       <ul>
@@ -25,7 +29,9 @@ function CategoryFilter({ setCurrentCategory, availableCategories }) {
         ).map(category_arg => (
           <li key={category_arg.name}>
             <button
-              className="btn category-btn"
+              className={`btn category-btn ${
+                currentCategory === category_arg.name ? 'active' : ''
+              }`}
               onClick={() => setCurrentCategory(category_arg.name)}
             >
               {category_arg.name}
@@ -79,6 +85,7 @@ function Projects() {
       <CategoryFilter
         setCurrentCategory={setCurrentCategory}
         availableCategories={availableCategories}
+        currentCategory={currentCategory}
       />
 
       <div className="container project_container">
