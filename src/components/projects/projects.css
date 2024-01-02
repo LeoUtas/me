@@ -90,14 +90,14 @@
   color: var(--color-primary-variant);
   background: var(--color-white);
   transition: var(--transition-hover);
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
 }
 
 .categories .category-btn.active {
   color: var(--color-primary-variant);
   background: var(--color-white);
   transition: var(--transition-hover);
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
 }
 
 @media screen and (max-width: 1284px) {
