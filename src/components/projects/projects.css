@@ -56,10 +56,50 @@
   color: var(--color-white);
 }
 
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2.5rem;
+  padding-top: 0;
+}
+
+.categories ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Creates four columns */
+  gap: 1.6rem; /* Sets equal gap between grid items */
+  list-style: none; /* Removes list bullets */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+.categories li {
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+.categories .btn.category-btn {
+  color: var(--color-white);
+  background: var(--color-bg-variant);
+  width: 100%; /* Makes the button expand to fill the grid cell */
+  font-size: 1rem;
+  letter-spacing: 0.6px;
+  text-align: center; /* Centers text in the button */
+}
+
+.categories .btn.category-btn:hover {
+  color: var(--color-primary-variant);
+  background: var(--color-white);
+  transition: var(--transition-hover);
+  font-size: 1.1rem;
+}
+
 @media screen and (max-width: 1284px) {
   .project_container {
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
+  }
+  .categories ul {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -67,6 +107,9 @@
   .project_container {
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
+  }
+  .categories ul {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -77,5 +120,8 @@
   }
   .for_more {
     margin: 0 1.2rem;
+  }
+  .categories ul {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

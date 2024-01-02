@@ -7,7 +7,10 @@
     "github": "https://github.com/LeoUtas/bird_classification_flask_YOLOv8.git",
     "demo": "",
     "featured_work": "",
-    "category": ""
+    "category": ["Computer Vision"],
+    "technical_tools": [
+      "Pytorch, YOLOv8, numpy, pandas, Flask, JavaScript, HTML, CSS (Bootstrap) and Docker"
+    ]
   },
   {
     "id": 2,
@@ -16,8 +19,9 @@
     "project_summary": "The classic game of Hangman was developed with a graphical user interface (GUI) using Pygame, and character names from Harry Potter were used as word data, which were retrieved using BeautifulSoup. Idea for GUI is from TechwithTim.",
     "github": "https://github.com/LeoUtas/hangman2.git",
     "demo": "",
-    "featured_work": "yes",
-    "category": ""
+    "featured_work": "",
+    "category": ["Tiny Repos"],
+    "technical_tools": ["pygame, BeautifulSoup, numpy, pandas"]
   },
   {
     "id": 3,
@@ -26,8 +30,11 @@
     "project_summary": "Using a customized MobileNet model for the classification of 524 bird species in the training dataset. This model was fine-tuned to accurately recognize and differentiate each species, achieving a high accuracy of over 98% on the test dataset.",
     "github": "https://github.com/LeoUtas/bird_classification_flask_YOLOv8.git",
     "demo": "https://bird-classification524-b310a542793a.herokuapp.com/",
-    "featured_work": "yes",
-    "category": ""
+    "featured_work": "",
+    "category": ["Computer Vision", "Highlights"],
+    "technical_tools": [
+      "TensorFlow, numpy, pandas, Flask, JavaScript, HTML, CSS (Bootstrap), Docker and Github Action"
+    ]
   },
   {
     "id": 4,
@@ -37,7 +44,10 @@
     "github": "https://github.com/LeoUtas/bird_classification_flask_2models.git",
     "demo": "",
     "featured_work": "",
-    "category": ""
+    "category": ["Computer Vision"],
+    "technical_tools": [
+      "Pytorch, YOLOv8, TensorFlow, numpy, pandas, Flask, JavaScript, HTML, CSS (Bootstrap) and Docker"
+    ]
   },
   {
     "id": 5,
@@ -46,8 +56,11 @@
     "project_summary": "This repository offers source code for a bird classification model that can identify 524 species. It was designed for efficiently testing various model architectures, including: InceptionV3, MobileNetV1, MobileNetV2 and YOLOv8.",
     "github": "https://github.com/LeoUtas/bird_classification_research.git",
     "demo": "",
-    "featured_work": "yes",
-    "category": ""
+    "featured_work": "",
+    "category": ["Computer Vision"],
+    "technical_tools": [
+      "Pytorch, TensorFlow, numpy, pandas, Docker, AWS EC2, AWS S3"
+    ]
   },
   {
     "id": 6,
@@ -56,8 +69,11 @@
     "project_summary": "This repository hosts the source code for an instance segmentation project, focusing on segmenting mitochondria in microscopic images. Detectron2 (Wu et al., 2019) was utilized as the primary tool for this task.",
     "github": "https://github.com/LeoUtas/Mitochondria_segmentation_research_detectron2.git",
     "demo": "",
-    "featured_work": "yes",
-    "category": ""
+    "featured_work": "",
+    "category": ["Computer Vision"],
+    "technical_tools": [
+      "Pytorch, Detectron2, Opencv, numpy, pandas, scikit-image, leafmap, matplotlib, seaborn and Docker"
+    ]
   },
   {
     "id": 7,
@@ -67,7 +83,10 @@
     "github": "https://github.com/LeoUtas/Mitochondria_segmentation_research_YOLOv8.git",
     "demo": "",
     "featured_work": "",
-    "category": ""
+    "category": ["Computer Vision"],
+    "technical_tools": [
+      "Pytorch, YOLOv8, Opencv, numpy, pandas, scikit-image, leafmap, matplotlib, seaborn and Docker"
+    ]
   },
   {
     "id": 8,
@@ -77,7 +96,10 @@
     "github": "https://github.com/LeoUtas/Mitochondria_segmentation_flask_YOLOv8.git",
     "demo": "",
     "featured_work": "",
-    "category": ""
+    "category": ["Computer Vision"],
+    "technical_tools": [
+      "Pytorch, YOLOv8, opencv-python, numpy, pandas, scikit-image, Flask, JavaScript, HTML, CSS and Docker"
+    ]
   },
   {
     "id": 9,
@@ -86,8 +108,11 @@
     "project_summary": "This repository hosts the source code for a web application designed for instance segmentation tasks. It detects and segments mitochondria in microscopy images. Detectron2 (Wu et al., 2019) was utilized as the primary tool for this task.",
     "github": "https://github.com/LeoUtas/Mitochondria_segmentation_flask_detectron2.git",
     "demo": "https://mito-app-651cbfda9bde.herokuapp.com/",
-    "featured_work": "yes",
-    "category": ""
+    "featured_work": "",
+    "category": ["Computer Vision", "Highlights"],
+    "technical_tools": [
+      "Pytorch, Detectron2, opencv-python, numpy, pandas, scikit-image, Flask, JavaScript, HTML, CSS, Docker and Github Action"
+    ]
   },
   {
     "id": 10,
@@ -97,7 +122,10 @@
     "github": "https://github.com/LeoUtas/Mitochondria_segmentation_flask_2models.git",
     "demo": "",
     "featured_work": "",
-    "category": ""
+    "category": ["Computer Vision"],
+    "technical_tools": [
+      "Pytorch, Detectron2, YOLOv8, opencv-python, numpy, pandas, scikit-image, Flask, JavaScript, HTML, CSS and Docker"
+    ]
   },
   {
     "id": 11,
@@ -106,8 +134,9 @@
     "project_summary": "The development of a 2-layer neural network (NN) only using NumPy. This project is a practical introduction to the fundamentals of deep learning and neural network architecture. The main focus will be on the step-by-step construction of the network, aiming to provide a clear and straightforward understanding of its underlying mechanics (i.e., the mathematics behind NNs).",
     "github": "https://github.com/LeoUtas/2-layer_neural_network.git",
     "demo": "",
-    "featured_work": "yes",
-    "category": ""
+    "featured_work": "",
+    "category": ["From Scratch", "Highlights"],
+    "technical_tools": ["numpy, pandas, matplotlib and seaborn"]
   },
   {
     "id": 12,
@@ -117,6 +146,18 @@
     "github": "https://github.com/LeoUtas/sagemaker_binary_mnist.git",
     "demo": "",
     "featured_work": "",
-    "category": ""
+    "category": ["From Scratch"],
+    "technical_tools": ["numpy, pandas, matplotlib, AWS SageMaker and AWS S3"]
+  },
+  {
+    "id": 14,
+    "featured_image": "/assets/project_featured_images/react_portfolio.gif",
+    "project_title": "React Portfolio",
+    "project_summary": "This portfolio is more than just a showcase of my work; it's a reflection of my journey and skills growing each day.",
+    "github": "https://github.com/LeoUtas/react_portfolio.git",
+    "demo": "https://leoutas.github.io/react_portfolio/#",
+    "featured_work": "",
+    "category": ["Web Development"],
+    "technical_tools": ["ReactJS, HTML, CSS and GitHub Actions"]
   }
 ]
