@@ -135,7 +135,7 @@
     "github": "https://github.com/LeoUtas/2-layer_neural_network.git",
     "demo": "",
     "featured_work": "",
-    "category": ["From Scratch", "Highlights"],
+    "category": ["DL from Scratch", "Highlights"],
     "technical_tools": ["numpy, pandas, matplotlib and seaborn"]
   },
   {
@@ -146,7 +146,7 @@
     "github": "https://github.com/LeoUtas/sagemaker_binary_mnist.git",
     "demo": "",
     "featured_work": "",
-    "category": ["From Scratch"],
+    "category": ["DL from Scratch"],
     "technical_tools": ["numpy, pandas, matplotlib, AWS SageMaker and AWS S3"]
   },
   {
@@ -159,5 +159,16 @@
     "featured_work": "",
     "category": ["Web Development"],
     "technical_tools": ["ReactJS, HTML, CSS and GitHub Actions"]
+  },
+  {
+    "id": 15,
+    "featured_image": "/assets/project_featured_images/todo_today.png",
+    "project_title": "To do today",
+    "project_summary": "This original project was built to help me track my daily to-do list. The app allows users to add new tasks, check completed tasks, and remove tasks from the list. Also, users can start a new day to monitor new daily tasks when the day is over. An important feature is tracking the percentage of completed tasks during the day throughout the user’s history.",
+    "github": "https://github.com/LeoUtas/todo_today.git",
+    "demo": "https://todotoday0.netlify.app/",
+    "featured_work": "",
+    "category": ["Web Development"],
+    "technical_tools": ["ReactJS, HTML, CSS"]
   }
 ]

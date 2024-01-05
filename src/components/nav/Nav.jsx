@@ -7,7 +7,6 @@ function Nav() {
   const [activeNav, setActiveNav] = useState('#');
   return (
     <nav>
-      {/* if activeNav === # => active */}
       <a
         href="#"
         onclick={() => setActiveNav('#')}

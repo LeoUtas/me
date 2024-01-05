@@ -6,6 +6,7 @@
     </li>
     <li><a href="#demo">Demo</a></li>
     <li><a href="#technical-tools">Technical Tools</a></li>
+    <li><a href="#The-design">The design</a></li>
   </ol>
 </details>
 
