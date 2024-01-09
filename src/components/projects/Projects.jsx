@@ -15,40 +15,13 @@ const CATEGORIES = [
   { name: 'Tiny Repos' },
 ];
 
-// filter the category
-function CategoryFilter({
-  currentCategory,
-  setCurrentCategory,
-  availableCategories,
-}) {
-  return (
-    <div className="categories">
-      <ul>
-        {CATEGORIES.filter(category_arg =>
-          availableCategories.includes(category_arg.name)
-        ).map(category_arg => (
-          <li key={category_arg.name}>
-            <button
-              className={`btn category-btn ${
-                currentCategory === category_arg.name ? 'active' : ''
-              }`}
-              onClick={() => setCurrentCategory(category_arg.name)}
-            >
-              {category_arg.name}
-            </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
-
 function Projects() {
   const [projects, setProjects] = useState([]);
   const [currentCategory, setCurrentCategory] = useState('Highlights');
 
   // Calculate availableCategories
   const availableCategories = useMemo(() => {
+    // determine the unique category values from project_data
     return projectData0.reduce((accumulator, project) => {
       const projectCategories = Array.isArray(project.category)
         ? project.category
@@ -62,6 +35,7 @@ function Projects() {
     }, []);
   }, []); // Empty dependency array ensures this only runs once
 
+  // filter project data for categories
   useEffect(() => {
     const projectData = projectData0.sort((a, b) => b.id - a.id);
     setProjects(projectData);
@@ -78,10 +52,39 @@ function Projects() {
     [projects, currentCategory]
   );
 
+  // filter the category component
+  function CategoryFilter({
+    currentCategory,
+    setCurrentCategory,
+    availableCategories,
+  }) {
+    return (
+      <div className="categories">
+        <ul>
+          {CATEGORIES.filter(category_arg =>
+            availableCategories.includes(category_arg.name)
+          ).map(category_arg => (
+            <li key={category_arg.name}>
+              <button
+                className={`btn category-btn ${
+                  currentCategory === category_arg.name ? 'active' : ''
+                }`}
+                onClick={() => setCurrentCategory(category_arg.name)}
+              >
+                {category_arg.name}
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
+    );
+  }
+
   return (
     <section id="projects">
       <h2 className="section_title">My Repositories</h2>
 
+      {/* Apply the CategoryFilter component */}
       <CategoryFilter
         setCurrentCategory={setCurrentCategory}
         availableCategories={availableCategories}

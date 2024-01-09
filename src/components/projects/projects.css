@@ -88,7 +88,7 @@
 
 .categories .btn.category-btn:hover {
   color: var(--color-primary-variant);
-  background: var(--color-white);
+  background: #cbf6ff;
   transition: var(--transition-hover);
   /* font-size: 1.1rem; */
 }
