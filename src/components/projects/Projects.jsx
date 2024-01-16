@@ -82,7 +82,7 @@ function Projects() {
 
   return (
     <section id="projects">
-      <h2 className="section_title">My Repositories</h2>
+      <h2 className="section_title">My Projects</h2>
 
       {/* Apply the CategoryFilter component */}
       <CategoryFilter
