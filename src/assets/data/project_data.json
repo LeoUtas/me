@@ -72,9 +72,9 @@
   },
   {
     "id": 7,
-    "featured_image": "/assets/project_featured_images/todo_today.png",
+    "featured_image": "/assets/project_featured_images/todo_today.gif",
     "project_title": "To do today",
-    "project_summary": "This original project was built to help me track my daily to-do list. The app allows users to add new tasks, check completed tasks, and remove tasks from the list. Also, users can start a new day to monitor new daily tasks when the day is over. An important feature is tracking the percentage of completed tasks during the day throughout the user’s history.",
+    "project_summary": "This original project helps to keep track of daily to-do list. It leverages Openai API to generate inspiring messages throughout the day. Users can add new tasks, check completed tasks, remove tasks and start a new day when the day is over. An important feature is tracking the percentage of completed tasks each day throughout history.",
     "github": "https://github.com/LeoUtas/todo_today.git",
     "demo": "https://todotoday0.netlify.app/",
     "featured_work": "",
