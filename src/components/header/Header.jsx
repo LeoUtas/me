@@ -27,8 +27,8 @@ function Header() {
         </h2>
         <h3>
           I am a graduate student at Memorial University of Newfoundland, and I
-          have a passion for applied quantitative analysis. To me, randomness
-          holds a mysterious charm.
+          have a passion for applied quantitative analysis. My goal is to become
+          a full-stack data developer.
         </h3>
 
         <Canvas
