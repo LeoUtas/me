@@ -77,7 +77,7 @@
   box-sizing: border-box; /* Ensures padding and border are included in the width */
 }
 
-.categories .btn.category-btn {
+.categories .btn.category_btn {
   color: var(--color-white);
   background: var(--color-bg-variant);
   width: 100%; /* Makes the button expand to fill the grid cell */
@@ -86,14 +86,14 @@
   text-align: center; /* Centers text in the button */
 }
 
-.categories .btn.category-btn:hover {
+.categories .btn.category_btn:hover {
   color: var(--color-primary-variant);
   background: #cbf6ff;
   transition: var(--transition-hover);
   /* font-size: 1.1rem; */
 }
 
-.categories .category-btn.active {
+.categories .category_btn.active {
   color: var(--color-primary-variant);
   background: var(--color-white);
   transition: var(--transition-hover);

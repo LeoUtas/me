@@ -45,7 +45,7 @@
     "github": "https://github.com/LeoUtas/2-layer_neural_network.git",
     "demo": "",
     "featured_work": "",
-    "category": ["DL from Scratch", "Highlights"],
+    "category": ["Deep Learning from Scratch", "Highlights"],
     "technical_tools": ["numpy, pandas, matplotlib and seaborn"]
   },
   {
@@ -56,7 +56,7 @@
     "github": "https://github.com/LeoUtas/sagemaker_binary_mnist.git",
     "demo": "",
     "featured_work": "",
-    "category": ["DL from Scratch"],
+    "category": ["Deep Learning from Scratch"],
     "technical_tools": ["numpy, pandas, matplotlib, AWS SageMaker and AWS S3"]
   },
   {

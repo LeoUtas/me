@@ -8,7 +8,7 @@ const CATEGORIES = [
   { name: 'Deep Learning' },
   { name: 'Computer Vision' },
   { name: 'Data Visualization' },
-  { name: 'DL from Scratch' },
+  { name: 'Deep Learning from Scratch' },
   { name: 'Data Analytics' },
   { name: 'Natural Language Processing' },
   { name: 'Web Development' },
@@ -66,7 +66,7 @@ function Projects() {
           ).map(category_arg => (
             <li key={category_arg.name}>
               <button
-                className={`btn category-btn ${
+                className={`btn category_btn ${
                   currentCategory === category_arg.name ? 'active' : ''
                 }`}
                 onClick={() => setCurrentCategory(category_arg.name)}
@@ -125,7 +125,7 @@ function Projects() {
                 {demo && (
                   <a
                     href={demo}
-                    className="btn btn-primary"
+                    className="btn btn_primary"
                     target="_blank"
                     rel="noreferrer"
                   >
