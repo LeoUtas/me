@@ -45,7 +45,7 @@
     "github": "https://github.com/LeoUtas/2-layer_neural_network.git",
     "demo": "",
     "featured_work": "",
-    "category": ["Deep Learning from Scratch", "Highlights"],
+    "category": ["DL from Scratch", "Highlights"],
     "technical_tools": ["numpy, pandas, matplotlib and seaborn"]
   },
   {
@@ -56,7 +56,7 @@
     "github": "https://github.com/LeoUtas/sagemaker_binary_mnist.git",
     "demo": "",
     "featured_work": "",
-    "category": ["Deep Learning from Scratch"],
+    "category": ["DL from Scratch"],
     "technical_tools": ["numpy, pandas, matplotlib, AWS SageMaker and AWS S3"]
   },
   {
@@ -67,7 +67,7 @@
     "github": "https://github.com/LeoUtas/react_portfolio.git",
     "demo": "https://leoutas.github.io/react_portfolio/#",
     "featured_work": "",
-    "category": ["Web Development"],
+    "category": ["Web Apps"],
     "technical_tools": ["ReactJS, HTML, CSS and GitHub Actions"]
   },
   {
@@ -78,7 +78,7 @@
     "github": "https://github.com/LeoUtas/todo_today.git",
     "demo": "https://todotoday0.netlify.app/",
     "featured_work": "",
-    "category": ["Web Development", "Highlights"],
+    "category": ["Web Apps", "Highlights"],
     "technical_tools": ["ReactJS, HTML, CSS"]
   }
 ]

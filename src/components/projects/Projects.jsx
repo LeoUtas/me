@@ -8,10 +8,10 @@ const CATEGORIES = [
   { name: 'Deep Learning' },
   { name: 'Computer Vision' },
   { name: 'Data Visualization' },
-  { name: 'Deep Learning from Scratch' },
+  { name: 'DL from Scratch' },
   { name: 'Data Analytics' },
   { name: 'Natural Language Processing' },
-  { name: 'Web Development' },
+  { name: 'Web Apps' },
   { name: 'Tiny Repos' },
 ];
 

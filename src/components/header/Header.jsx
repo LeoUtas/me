@@ -28,7 +28,7 @@ function Header() {
         <h3>
           I am a graduate student at Memorial University of Newfoundland, and I
           have a passion for applied quantitative analysis. My goal is to become
-          a full-stack data developer.
+          a full-stack developer.
         </h3>
 
         <Canvas
