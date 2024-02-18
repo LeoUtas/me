@@ -48,7 +48,7 @@ header {
   gap: 0.1rem;
   left: 2.8rem;
   bottom: 8rem;
-  top: 20rem;
+  top: 25rem;
   position: fixed;
   transform: scale(1.6);
   transition: transform 0.3s ease;
