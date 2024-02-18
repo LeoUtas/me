@@ -48,7 +48,7 @@ header {
   gap: 0.1rem;
   left: 2.8rem;
   bottom: 8rem;
-  top: 36rem;
+  top: 35rem;
   position: fixed;
   transform: scale(1.6);
   transition: transform 0.3s ease;
@@ -74,9 +74,8 @@ header {
   header {
     height: 68vh;
   }
-  .Headersocialnetwork_icons {
-    display: none;
-    top: 35rem;
+  .icon_items {
+    top: 40rem;
   }
 }
 
@@ -84,8 +83,7 @@ header {
   header {
     height: 100vh;
   }
-  .Headersocialnetwork_icons {
-    display: none;
-    top: 16rem;
+  .icon_items {
+    top: 10rem;
   }
 }
