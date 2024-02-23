@@ -5,7 +5,7 @@
     "project_title": "Bird classification",
     "project_summary": "Classification of 524 bird species. The finalized model achieves an accuracy of > 98% on the test dataset. I attempted to solve the task using 4 different tools, including InceptionV3, MobileNetV1, MobileNetV2 and YOLOv8 models. The MobileNetV1 was chosen as the most suitable model for this task.",
     "github": "https://github.com/LeoUtas/bird_classification_research.git",
-    "demo": "https://bird-classification524-b310a542793a.herokuapp.com/",
+    "demo": "",
     "featured_work": "",
     "category": ["Computer Vision", "Highlights"],
     "technical_tools": [
@@ -30,7 +30,7 @@
     "project_title": "Mitochondria instance segmentation",
     "project_summary": "I applied 2 different tools (i.e., Detectron and YOLOv8 ) for this task. The results indicated that Detectron2 demonstrated superior performance over YOLOv8. However, in some cases, YOLOv8 performed better on the task of object detection. Detectron2 was chosen to deploy on a web application.",
     "github": "https://github.com/LeoUtas/Mitochondria_segmentation_research_detectron2.git",
-    "demo": "https://mito-app-651cbfda9bde.herokuapp.com",
+    "demo": "",
     "featured_work": "",
     "category": ["Computer Vision", "Highlights"],
     "technical_tools": [

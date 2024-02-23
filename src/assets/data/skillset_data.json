@@ -17,16 +17,21 @@
     "skills": [
       "Python",
       "R",
-      "JavaScript, HTML, CSS",
+      "ReactJS, React Native, HTML, CSS",
       "PostgreSQL",
-      "AWS EC2, S3, SageMaker",
+      "AWS EC2, S3, SageMaker, RDS, Glue",
       "Docker, Github action"
     ]
   },
   {
     "id": 3,
     "skillset_title": "Interpersonal skills",
-    "skills": ["Problem solving", "Team work", "Project management"]
+    "skills": [
+      "Problem solving",
+      "Good communication",
+      "Team work",
+      "Project management"
+    ]
   },
   {
     "id": 4,
