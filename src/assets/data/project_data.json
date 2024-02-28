@@ -45,7 +45,7 @@
     "github": "https://github.com/LeoUtas/2-layer_neural_network.git",
     "demo": "",
     "featured_work": "",
-    "category": ["DL from Scratch", "Highlights"],
+    "category": ["Deep Learning from Scratch", "Highlights"],
     "technical_tools": ["numpy, pandas, matplotlib and seaborn"]
   },
   {
@@ -56,7 +56,7 @@
     "github": "https://github.com/LeoUtas/sagemaker_binary_mnist.git",
     "demo": "",
     "featured_work": "",
-    "category": ["DL from Scratch"],
+    "category": ["Deep Learning from Scratch"],
     "technical_tools": ["numpy, pandas, matplotlib, AWS SageMaker and AWS S3"]
   },
   {
@@ -79,6 +79,17 @@
     "demo": "https://todotoday0.netlify.app/",
     "featured_work": "",
     "category": ["Web Apps", "Highlights"],
-    "technical_tools": ["ReactJS, HTML, CSS"]
+    "technical_tools": ["ReactJS, HTML, CSS, FastAPI, Supabase"]
+  },
+  {
+    "id": 8,
+    "featured_image": "/assets/project_featured_images/thehappycave.gif",
+    "project_title": "The Happy Cave",
+    "project_summary": "This project originated from our desire to enhance our verbal English communication skills. The app can listen to what users say and then use Openai API to talk back in audio. I'm working on making it possible for users to find and listen to their old recordings and the AI responses in the database.",
+    "github": "",
+    "demo": "https://www.youtube.com/watch?v=yeDAQu2lQnk",
+    "featured_work": "",
+    "category": ["Mobile Apps", "Highlights"],
+    "technical_tools": ["React Native, FastAPI"]
   }
 ]
