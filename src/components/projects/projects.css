@@ -101,7 +101,17 @@
   /* font-size: 1.1rem; */
 }
 
-@media screen and (max-width: 1284px) {
+@media screen and (max-width: 1440px) {
+  .project_container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+  .categories ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1280px) {
   .project_container {
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
