@@ -28,8 +28,8 @@ function Header() {
         <h3>
           I study and solve problems using technical tools (i.e., Figma for UI
           design, React for the frontend, Python for the backend, model
-          training, and cloud services for the database). I’m learning every day
-          to be a full-stack problem solver
+          training, and cloud services for the database). I call it full-stack
+          problem-solving
         </h3>
 
         <Canvas
