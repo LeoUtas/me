@@ -27,9 +27,9 @@ function Header() {
         </h2>
         <h3>
           I study and solve problems using technical tools (i.e., Figma for UI
-          design, React for the frontend, Python for the backend, and cloud
-          services for the database). I’m learning every day to be a full-stack
-          problem solver
+          design, React for the frontend, Python for the backend, model
+          training, and cloud services for the database). I’m learning every day
+          to be a full-stack problem solver
         </h3>
 
         <Canvas
