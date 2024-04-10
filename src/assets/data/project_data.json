@@ -85,9 +85,9 @@
     "id": 8,
     "featured_image": "/assets/project_featured_images/thehappycave.gif",
     "project_title": "The Happy Cave",
-    "project_summary": "This project originated from our desire to enhance our verbal English communication skills. The app can listen to what users say and then use Openai API to talk back in audio. I'm working on making it possible for users to find and listen to their old recordings and the AI responses in the database.",
-    "github": "",
-    "demo": "https://www.youtube.com/watch?v=yeDAQu2lQnk",
+    "project_summary": "This IOS app provides 2 main features namely English Tutor: The AI engine behind the backend was designed to act as an English tutor focusing on IELTS speaking practices; and Talkative Agent: The AI engine behind the backend was prompted to generate hilarious jokes - just for making fun conversations :) Users can select responses (i.e., text messages and associated audio files) and save them to firebase cloud and retrieve them whenever needed.",
+    "github": "https://github.com/LeoUtas/thehappycave_mobile_frontend.git",
+    "demo": "https://youtu.be/myqkETtYNiU",
     "featured_work": "",
     "category": ["Mobile Apps", "Highlights"],
     "technical_tools": ["React Native, FastAPI"]
