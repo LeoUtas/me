@@ -21,6 +21,8 @@ header {
 .header_container h1 {
   margin-bottom: 2rem;
   width: 100%;
+  letter-spacing: 0.1rem;
+  font-family: Times-Regular;
 }
 
 .header_container h3 {
