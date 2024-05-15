@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "id": 1,
@@ -77,3 +78,100 @@
     "technical_tools": ["React Native, FastAPI"]
   }
 ]
+=======
+[
+  {
+    "id": 1,
+    "featured_image": "/assets/project_featured_images/bird_app_mobilenet.gif",
+    "project_title": "Bird classification",
+    "project_summary": "Classification of 524 bird species. The finalized model achieves an accuracy of > 98% on the test dataset. I attempted to solve the task using 4 different tools, including InceptionV3, MobileNetV1, MobileNetV2 and YOLOv8 models. The MobileNetV1 was chosen as the most suitable model for this task.",
+    "github": "https://github.com/LeoUtas/bird_classification_research.git",
+    "demo": "",
+    "featured_work": "",
+    "category": ["Computer Vision", "Highlights"],
+    "technical_tools": [
+      "Pytorch, YOLOv8, TensorFlow, numpy, pandas, Flask, JavaScript, HTML, CSS, Docker and Github Actions"
+    ]
+  },
+  {
+    "id": 2,
+    "featured_image": "/assets/project_featured_images/hangman2.gif",
+    "project_title": "Hangman with GUI",
+    "project_summary": "The classic game of Hangman was developed with a graphical user interface (GUI) using Pygame, and character names from Harry Potter were used as word data, which were retrieved using BeautifulSoup. Idea for GUI is from TechwithTim.",
+    "github": "https://github.com/LeoUtas/hangman2.git",
+    "demo": "",
+    "featured_work": "",
+    "category": ["Tiny Repos"],
+    "technical_tools": ["pygame, BeautifulSoup, numpy, pandas"]
+  },
+
+  {
+    "id": 3,
+    "featured_image": "/assets/project_featured_images/Mitochondria_segmentation_research_detectron2.png",
+    "project_title": "Mitochondria instance segmentation",
+    "project_summary": "I applied 2 different tools (i.e., Detectron and YOLOv8 ) for this task. The results indicated that Detectron2 demonstrated superior performance over YOLOv8. However, in some cases, YOLOv8 performed better on the task of object detection. Detectron2 was chosen to deploy on a web application.",
+    "github": "https://github.com/LeoUtas/Mitochondria_segmentation_research_detectron2.git",
+    "demo": "",
+    "featured_work": "",
+    "category": ["Computer Vision", "Highlights"],
+    "technical_tools": [
+      "Pytorch, Detectron2, YOLOv8, OpenCV, numpy, pandas, scikit-image, leafmap, matplotlib, seaborn and Docker"
+    ]
+  },
+  {
+    "id": 4,
+    "featured_image": "/assets/project_featured_images/2-layer-nn.png",
+    "project_title": "2-Layer Neural Network from scratch",
+    "project_summary": "The development of a 2-layer neural network (NN) only using NumPy. This project is a practical introduction to the fundamentals of deep learning and neural network architecture. The main focus will be on the step-by-step construction of the network, aiming to provide a clear and straightforward understanding of its underlying mechanics (i.e., the mathematics behind NNs).",
+    "github": "https://github.com/LeoUtas/2-layer_neural_network.git",
+    "demo": "",
+    "featured_work": "",
+    "category": ["Deep Learning from Scratch", "Highlights"],
+    "technical_tools": ["numpy, pandas, matplotlib and seaborn"]
+  },
+  {
+    "id": 5,
+    "featured_image": "/assets/project_featured_images/sagemaker_binary_mnist.png",
+    "project_title": "Using AWS SageMaker to construct a Neural Network from scratch",
+    "project_summary": "This repository provides the development of a 3-layer Neural Network (NN) from sratch (i.e., only using Numpy) for solving the binary MNIST dataset. This project offers a practical guide to the foundational aspects of deep learning and the architecture of neural networks. It primarily concentrates on building the network from the ground up (i.e., the mathematics running underthe hood of NNs).",
+    "github": "https://github.com/LeoUtas/sagemaker_binary_mnist.git",
+    "demo": "",
+    "featured_work": "",
+    "category": ["Deep Learning from Scratch"],
+    "technical_tools": ["numpy, pandas, matplotlib, AWS SageMaker and AWS S3"]
+  },
+  {
+    "id": 6,
+    "featured_image": "/assets/project_featured_images/react_portfolio.gif",
+    "project_title": "React Portfolio",
+    "project_summary": "This portfolio is more than just a showcase of my work; it's a reflection of my journey and skills growing each day.",
+    "github": "https://github.com/LeoUtas/react_portfolio.git",
+    "demo": "https://leoutas.github.io/react_portfolio/#",
+    "featured_work": "",
+    "category": ["Web Apps"],
+    "technical_tools": ["ReactJS, HTML, CSS and GitHub Actions"]
+  },
+  {
+    "id": 7,
+    "featured_image": "/assets/project_featured_images/todo_today.gif",
+    "project_title": "To do today",
+    "project_summary": "This original project helps to keep track of daily to-do list. It leverages Openai API to generate inspiring messages throughout the day. Users can add new tasks, check completed tasks, remove tasks and start a new day when the day is over. An important feature is tracking the percentage of completed tasks each day throughout history.",
+    "github": "https://github.com/LeoUtas/todo_today.git",
+    "demo": "https://todotoday0.netlify.app/",
+    "featured_work": "",
+    "category": ["Web Apps", "Highlights"],
+    "technical_tools": ["ReactJS, HTML, CSS, FastAPI, Supabase"]
+  },
+  {
+    "id": 8,
+    "featured_image": "/assets/project_featured_images/thehappycave.gif",
+    "project_title": "The Happy Cave",
+    "project_summary": "This IOS app provides 2 main features namely English Tutor: The AI engine behind the backend was designed to act as an English tutor focusing on IELTS speaking practices; and Talkative Agent: The AI engine behind the backend was prompted to generate hilarious jokes - just for making fun conversations :) Users can select responses (i.e., text messages and associated audio files) and save them to firebase cloud and retrieve them whenever needed.",
+    "github": "https://github.com/LeoUtas/thehappycave_mobile_frontend.git",
+    "demo": "https://youtu.be/myqkETtYNiU",
+    "featured_work": "",
+    "category": ["Mobile Apps", "Highlights"],
+    "technical_tools": ["React Native, FastAPI"]
+  }
+]
+>>>>>>> fc5bda79ab38a461aff32927302b2241a0378c18
