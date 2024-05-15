@@ -11,9 +11,9 @@ function Header() {
         <h1>GOOD DAY, I'M HOANG</h1>
 
         <h3>
-          I'm actively looking for an entry-level position as a full-stack
-          developer. The vision for my future development is to dive deeper into
-          backend engineering.
+          I'm actively looking for a developer position. I have a quantitative
+          background by train and have built multiple full-stack applications,
+          including IOS, web development, and computer vision modelling.
         </h3>
 
         <Canvas className="canvas">
