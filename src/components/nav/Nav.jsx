@@ -22,13 +22,13 @@ function Nav() {
         Projects
       </a>
 
-      {/* <a
-                href="#blogs"
-                onclick={() => setActiveNav("#blogs")}
-                className={activeNav === "#blogs" ? "active" : ""}
-            >
-                Blogs
-            </a> */}
+      <a
+        href="#blogs"
+        onclick={() => setActiveNav('#blogs')}
+        className={activeNav === '#blogs' ? 'active' : ''}
+      >
+        Blogs
+      </a>
 
       <a
         href="#about"
@@ -37,13 +37,13 @@ function Nav() {
       >
         About
       </a>
-      <a
+      {/* <a
         href="#experience"
         onclick={() => setActiveNav('#experience')}
         className={activeNav === '#experience' ? 'active' : ''}
       >
         Experience
-      </a>
+      </a> */}
       <a
         href={process.env.PUBLIC_URL + '/assets/HOANG_new_resume_DS.pdf'}
         target="_blank"

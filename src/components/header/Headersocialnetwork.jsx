@@ -6,7 +6,7 @@ function Headersocialnetwork() {
   return (
     <div className="Headersocialnetwork_icons">
       <a
-        href="https://www.linkedin.com"
+        href="https://www.linkedin.com/in/hoangng84/"
         target="_blank"
         rel="noopener noreferrer"
       >

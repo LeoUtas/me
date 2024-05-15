@@ -6,7 +6,6 @@
       "Statistics",
       "Data visualization",
       "Machine learning",
-      "Deep learning",
       "Computer vision",
       "Technical writing"
     ]
@@ -17,25 +16,16 @@
     "skills": [
       "Python",
       "R",
-      "React JS, React Native, HTML, CSS",
-      "mySQL",
-      "AWS EC2, S3, SageMaker, RDS, Glue",
+      "React JS, React Native, Express JS",
+      "HTML, CSS (tailwind)",
+      "MongoDB, Firebase, Supabase",
+      "AWS (EC2, S3, RDS, Glue)",
       "Docker, Github action"
-    ]
-  },
-  {
-    "id": 3,
-    "skillset_title": "Interpersonal skills",
-    "skills": [
-      "Problem solving",
-      "Good communication",
-      "Team work",
-      "Project management"
     ]
   },
   {
     "id": 4,
     "skillset_title": "Area of interest",
-    "skills": ["Fisheries science", "Aquaculture", "Applied data science"]
+    "skills": ["Applied AI solutions", "Web development", "Mobile development"]
   }
 ]

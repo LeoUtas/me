@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "blog_title": "Python Optimization with NumPy (Vectorization)",
+    "blog_summary": "This writing is about a simple experiment where I created different methods to simulate some data and compare these methods regarding their performance when increasing the sample size",
+    "github": "https://github.com/LeoUtas/python_optimization_with_numpy.git",
+    "devto": "https://dev.to/hoangng/python-optimization-with-numpy-vectorization-3l21",
+    "featured_work": "",
+    "category": ["Fundamentals"]
+  },
+  {
+    "id": 2,
+    "blog_title": "Code a 2-layer Neural Network from Scratch",
+    "blog_summary": "This article provides the development of a 2-layer neural network (NN) only using NumPy. This project is a practical introduction to the fundamentals of deep learning and neural network architecture. The main focus will be on the step-by-step construction of the network, aiming to provide a clear and straightforward understanding of its underlying mechanics (i.e., the mathematics behind NNs).",
+    "github": "https://github.com/LeoUtas/2-layer_neural_network.git",
+    "devto": "https://dev.to/hoangng/code-a-2-layer-neural-network-from-scratch-1hki",
+    "featured_work": "",
+    "category": ["AI Fundamentals", "Highlights"]
+  },
+  {
+    "id": 3,
+    "blog_title": "Fundamentals of MongoDB (part 1)",
+    "blog_summary": "MongoDB is a document-oriented NoSQL database that stores data in flexible JSON-like documents. This flexibility, along with its scalability and query capabilities, makes it a popular choice for modern applications dealing with diverse and rapidly changing data. It would be highly transferable to MongoDB if you have already worked with a relational database management system (RDBMS) before.",
+    "github": "",
+    "devto": "https://dev.to/hoangng/fundamentals-of-mongodb-part-1-26oh",
+    "featured_work": "",
+    "category": ["Database"]
+  },
+  {
+    "id": 4,
+    "blog_title": "Code a Neural Network from scratch to solve the binary MNIST problem",
+    "blog_summary": "This article provides the development of a 3-layer Neural Network (NN) from scratch (i.e., only using Numpy) for solving the binary MNIST dataset. This project offers a practical guide to the foundational aspects of deep learning and the architecture of neural networks. It primarily concentrates on building the network from the ground up (i.e., the mathematics running under the hood of NNs). It is noted that this project is an extension of a project titled 'Code a 2-layer Neural Network from Scratch,' where I explained in detail the mathematics behind the senses of a neural network (see this article for more details). In other words, solving the binary MNIST can be considered a from-scratch neural network use case.",
+    "github": "https://github.com/LeoUtas/sagemaker_binary_mnist.git",
+    "devto": "https://dev.to/hoangng/code-a-neural-network-from-scratch-to-solve-the-binary-mnist-problem-k0e",
+    "featured_work": "",
+    "category": ["AI Fundamentals"]
+  },
+  {
+    "id": 3,
+    "blog_title": "",
+    "blog_summary": "",
+    "github": "",
+    "devto": "",
+    "featured_work": "",
+    "category": [""]
+  }
+]

@@ -3,8 +3,8 @@ import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import About from './components/about/About';
 import Projects from './components/projects/Projects';
-// import Blogs from "./components/blogs/Blogs";
-import Experience from './components/experience/Experience';
+import Blogs from './components/blogs/Blogs';
+// import Experience from './components/experience/Experience';
 import Footer from './components/footer/Footer';
 
 const App = () => {
@@ -13,9 +13,9 @@ const App = () => {
       <Header />
       <Nav />
       <Projects />
-      {/* <Blogs /> */}
+      <Blogs />
       <About />
-      <Experience />
+      {/* <Experience /> */}
       <Footer />
     </>
   );

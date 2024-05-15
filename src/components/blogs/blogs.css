@@ -1,0 +1,177 @@
+.blog_item {
+  padding-bottom: 6rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  transition: var(--transition);
+  position: relative;
+  width: 100vw;
+}
+
+.blog_container {
+  text-align: center;
+}
+
+.blog_item:hover {
+  border-color: var(--color-primary-variant);
+  /* transform: scale(1.28); */
+  border-color: var(--color-white);
+  background-color: transparent;
+  z-index: 1;
+  transition: var(--transition-hover);
+}
+
+.blog_item h3 {
+  font-size: 1.65rem;
+  margin-bottom: 2rem;
+}
+
+.blog_item p {
+  font-size: 1.05rem;
+  width: 80vw;
+  text-align: justify;
+  line-height: 1.75rem;
+}
+
+.blog_btn {
+  font-size: rem;
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.blog-categories {
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+}
+
+/* For making category layout (i.e., how many columns */
+.blog-categories ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates four columns */
+  gap: 1.6rem; /* Sets equal gap between grid items */
+  list-style: none; /* Removes list bullets */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+.blog-categories li {
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+.blog-categories .btn.category_btn {
+  border: none;
+  padding: 0.8rem 1.5rem; /* Adds padding inside the button */
+  border-radius: 1.5rem; /* Rounds the button corners */
+  color: var(--color-white);
+  /* background: var(--color-bg-variant); */
+  background: var(--color-bg-nav);
+  width: 100%; /* Makes the button expand to fill the grid cell */
+  font-size: 1.15rem;
+  /* letter-spacing: 0.6px; */
+  text-align: center; /* Centers text in the button */
+}
+
+.blog-categories .btn.category_btn:hover {
+  color: var(--color-primary-variant);
+  background: #cbf6ff;
+  transition: var(--transition-hover);
+  /* font-size: 1.1rem; */
+}
+
+.blog-categories .category_btn.active {
+  color: var(--color-primary-variant);
+  background: var(--color-white);
+  transition: var(--transition-hover);
+  /* font-size: 1.1rem; */
+}
+
+@media screen and (max-width: 1440px) {
+  .blog_container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .blog_item p {
+    width: 35rem;
+    margin-right: 2rem;
+  }
+  .blog-categories ul {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .blog_container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .blog_item p {
+    width: 30rem;
+    margin-right: 2rem;
+  }
+  .blog-categories ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .blog_container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .blog_item p {
+    width: 25rem;
+    margin-left: 1rem;
+  }
+  .btn {
+    margin-left: 1rem;
+  }
+  .blog-categories ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .blog_item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog_item P {
+    width: 20rem;
+    margin-left: 2rem;
+    font-size: 0.9rem;
+  }
+  .blog_item-image {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .blog-categories ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .btn {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .blog_item {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .blog_item h3 {
+    font-size: 1.25rem;
+    margin-left: 2rem;
+  }
+  .blog_item P {
+    width: 25rem;
+  }
+
+  .btn {
+    margin-left: 2rem;
+  }
+
+  .blog-categories ul {
+    grid-template-columns: 1fr;
+  }
+}

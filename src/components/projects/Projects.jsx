@@ -5,15 +5,14 @@ import projectData0 from '../../assets/data/project_data.json';
 const CATEGORIES = [
   { name: 'Highlights' },
   { name: 'Machine Learning' },
-  { name: 'Deep Learning' },
+  { name: 'Applied AI' },
   { name: 'Computer Vision' },
   { name: 'Data Visualization' },
-  { name: 'Deep Learning from Scratch' },
+  { name: 'Fundamentals' },
   { name: 'Data Analytics' },
-  { name: 'Natural Language Processing' },
-  { name: 'Web Apps' },
-  { name: 'Mobile Apps' },
-  { name: 'Tiny Repos' },
+  { name: 'Web' },
+  { name: 'Mobile' },
+  { name: 'Game' },
 ];
 
 function Projects() {
@@ -83,7 +82,7 @@ function Projects() {
 
   return (
     <section id="projects">
-      <h2 className="section_title">My Projects</h2>
+      <h2 className="section_title">Projects</h2>
 
       {/* Apply the CategoryFilter component */}
       <CategoryFilter
@@ -92,7 +91,7 @@ function Projects() {
         currentCategory={currentCategory}
       />
 
-      <div className="container project_container">
+      <div className="container">
         {filteredProjects.map(
           ({
             id,
@@ -101,38 +100,51 @@ function Projects() {
             project_summary,
             github,
             demo,
-            technical_tools,
+            figma,
           }) => (
             <article key={id} className="project_item">
+              <div>
+                <h3>{project_title}</h3>
+                <p>{project_summary}</p>
+                {/* <p className="">{technical_tools}</p> */}
+                <div className="project_btn">
+                  <a
+                    href={github}
+                    className="btn project_btn"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github
+                  </a>
+                  {/* Conditional rendering for the demo button */}
+                  {demo && (
+                    <a
+                      href={demo}
+                      className="btn btn_primary project_btn"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Demo
+                    </a>
+                  )}
+                  {figma && (
+                    <a
+                      href={figma}
+                      className="btn project_btn"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Figma
+                    </a>
+                  )}
+                </div>
+              </div>
+
               <div className="project_item-image">
                 <img
                   src={process.env.PUBLIC_URL + featured_image}
                   alt={project_title}
                 />
-              </div>
-              <h3>{project_title}</h3>
-              <p>{project_summary}</p>
-              {/* <p className="">{technical_tools}</p> */}
-              <div className="project_btn">
-                <a
-                  href={github}
-                  className="btn"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github
-                </a>
-                {/* Conditional rendering for the demo button */}
-                {demo && (
-                  <a
-                    href={demo}
-                    className="btn btn_primary"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Demo
-                  </a>
-                )}
               </div>
             </article>
           )

@@ -11,19 +11,12 @@ function Header() {
         <h1>GOOD DAY, I'M HOANG</h1>
 
         <h3>
-          I study and solve problems using technical tools (i.e., Figma for UI
-          design, React for the frontend, Python for the backend, model
-          training, and cloud services for the database). I call it full-stack
-          problem-solving
+          I'm actively looking for an entry-level position as a full-stack
+          developer. The vision for my future development is to dive deeper into
+          backend engineering.
         </h3>
 
-        <Canvas
-          style={{
-            position: 'flex',
-            width: '100%',
-            height: '100%',
-          }}
-        >
+        <Canvas className="canvas">
           <Particles count={8000} />
         </Canvas>
         <div className="header_items">
