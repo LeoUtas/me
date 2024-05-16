@@ -8,8 +8,8 @@
     "demo": "https://www.youtube.com/watch?v=myqkETtYNiU&t=5s",
     "figma": "",
     "featured_work": "",
-    "category": ["Mobile", "Applied AI"],
-    "technical_tools": ["React Native, FastAPI"]
+    "category": ["Mobile", "Applied AI", "Highlights"],
+    "technical_tools": ["React Native, FastAPI, Firebase, OpenAI, Elevenlabs"]
   },
   {
     "id": 2,
@@ -22,7 +22,7 @@
     "featured_work": "",
     "category": ["Applied AI", "Highlights", "Mobile"],
     "technical_tools": [
-      "Pytorch, YOLOv8, TensorFlow, numpy, pandas, Flask, JavaScript, HTML, CSS, Docker and Github Actions"
+      "React Native, Flask, Firebase, OpenAI, YOLOv8, TensorFlow, NumPy, Pandas, Docker and Github Actions"
     ]
   },
   {
@@ -36,7 +36,7 @@
     "featured_work": "",
     "category": ["Computer Vision"],
     "technical_tools": [
-      "Pytorch, YOLOv8, TensorFlow, numpy, pandas, Flask, JavaScript, HTML, CSS, Docker and Github Actions"
+      "YOLOv8, TensorFlow, NumPy, Pandas, WSL, AWS EC2, AWS S3"
     ]
   },
   {
@@ -49,7 +49,7 @@
     "demo": "",
     "featured_work": "",
     "category": ["Game"],
-    "technical_tools": ["pygame, BeautifulSoup, numpy, pandas"]
+    "technical_tools": ["Pygame, BeautifulSoup, NumPy, Pandas"]
   },
   {
     "id": 5,
@@ -61,7 +61,7 @@
     "featured_work": "",
     "category": ["Applied AI", "Computer Vision"],
     "technical_tools": [
-      "Pytorch, Detectron2, YOLOv8, OpenCV, numpy, pandas, scikit-image, leafmap, matplotlib, seaborn and Docker"
+      "Detectron2, YOLOv8, OpenCV, NumPy, Pandas, Scikit-image, Matplotlib, Seaborn, WSL and Docker"
     ]
   },
   {
@@ -74,6 +74,6 @@
     "figma": "",
     "featured_work": "",
     "category": ["Web"],
-    "technical_tools": ["ReactJS, HTML, CSS, FastAPI, Supabase"]
+    "technical_tools": ["ReactJS, HTML, CSS, FastAPI, Supabase, OpenAI"]
   }
 ]
