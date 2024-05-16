@@ -108,7 +108,7 @@
     grid-template-columns: 1fr 1fr;
   }
   .project_item p {
-    width: 40rem;
+    width: 35rem;
     margin-right: 2rem;
   }
   .categories ul {
@@ -121,7 +121,7 @@
     grid-template-columns: 1fr 1fr;
   }
   .project_item p {
-    width: 35rem;
+    width: 30rem;
     margin-right: 2rem;
   }
   .categories ul {
