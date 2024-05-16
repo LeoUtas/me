@@ -98,6 +98,7 @@ function Projects() {
             featured_image,
             project_title,
             project_summary,
+            technical_tools,
             github,
             demo,
             figma,
@@ -106,7 +107,7 @@ function Projects() {
               <div>
                 <h3>{project_title}</h3>
                 <p>{project_summary}</p>
-                {/* <p className="">{technical_tools}</p> */}
+                <p>Technical tools: {technical_tools}</p>
                 <div className="project_btn">
                   <a
                     href={github}

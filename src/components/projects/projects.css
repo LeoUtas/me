@@ -21,7 +21,7 @@
 
 .project_item-image:hover {
   cursor: pointer;
-  scale: 1.5;
+  transform: scale(1.5);
   transition: var(--transition);
 }
 
@@ -108,7 +108,7 @@
     grid-template-columns: 1fr 1fr;
   }
   .project_item p {
-    width: 35rem;
+    width: 40rem;
     margin-right: 2rem;
   }
   .categories ul {
@@ -121,7 +121,7 @@
     grid-template-columns: 1fr 1fr;
   }
   .project_item p {
-    width: 30rem;
+    width: 35rem;
     margin-right: 2rem;
   }
   .categories ul {
