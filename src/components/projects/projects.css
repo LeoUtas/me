@@ -5,6 +5,7 @@
   transition: var(--transition);
   position: relative;
   width: 100%;
+  gap: 5rem;
 }
 
 .project_container {
@@ -13,9 +14,8 @@
 
 .project_item-image {
   border-radius: 1rem;
-  margin: 2.5rem;
-  width: 22rem;
-  height: 22rem;
+  width: 25rem;
+  height: 25rem;
   overflow: hidden;
 }
 
@@ -119,6 +119,11 @@
   .project_container {
     grid-template-columns: 1fr 1fr;
   }
+
+  .project_item {
+    gap: 3rem;
+  }
+
   .project_item p {
     width: 30rem;
     margin-right: 2rem;
@@ -132,6 +137,11 @@
   .project_container {
     grid-template-columns: 1fr 1fr;
   }
+
+  .project_item {
+    gap: 2rem;
+  }
+
   .project_item p {
     width: 25rem;
     margin-left: 1rem;
@@ -147,6 +157,10 @@
 @media screen and (max-width: 800px) {
   .project_item {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .project_item {
+    gap: 1rem;
   }
 
   .project_item P {
