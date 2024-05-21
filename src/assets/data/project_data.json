@@ -8,7 +8,7 @@
     "demo": "https://youtube.com/shorts/nVCGWkcglGo?si=8r8H8vd19FZYwcFf",
     "figma": "https://www.figma.com/design/t5Jt96p4rlIDbjxL7HsveU/UI-design?node-id=0%3A1&t=RZUeb5FJxSXb1q6l-1",
     "featured_work": "",
-    "category": ["Highlights", "Mobile Devlopment"],
+    "category": ["Highlights", "Mobile Development"],
     "technical_tools": ["React Native, Flask, YOLOv8, Firebase, OpenAI"]
   },
   {
@@ -59,7 +59,7 @@
     "demo": "https://todotoday0.netlify.app/",
     "figma": "",
     "featured_work": "",
-    "category": ["Web Devlopment"],
+    "category": ["Web Development"],
     "technical_tools": ["ReactJS, HTML, CSS, FastAPI, Supabase, OPenAI"]
   },
   {
@@ -71,7 +71,7 @@
     "demo": "https://www.youtube.com/watch?v=myqkETtYNiU&t=5s",
     "figma": "",
     "featured_work": "",
-    "category": ["Mobile Devlopment", "Highlights"],
+    "category": ["Mobile Development", "Highlights"],
     "technical_tools": ["React Native, FastAPI, Firebase, OPenAI, ElevenLabs"]
   },
   {
@@ -83,9 +83,9 @@
     "demo": "https://youtu.be/U-Rca9L1Qwk",
     "figma": "",
     "featured_work": "",
-    "category": ["Web Devlopment", "Highlights"],
+    "category": ["Web Development", "Highlights"],
     "technical_tools": [
-      "React JS, Express JS, Langchain JS, Auth0, MongoDB, OPenAI"
+      "React JS and Express JS (Typescript), Langchain JS, Auth0, MongoDB, OPenAI"
     ]
   },
   {

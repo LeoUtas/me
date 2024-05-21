@@ -10,8 +10,8 @@ const CATEGORIES = [
   { name: 'Data Visualization' },
   { name: 'Fundamentals' },
   { name: 'Data Analytics' },
-  { name: 'Web Devlopment' },
-  { name: 'Mobile Devlopment' },
+  { name: 'Web Development' },
+  { name: 'Mobile Development' },
   { name: 'Tiny Projects' },
 ];
 
