@@ -66,7 +66,7 @@
     "id": 6,
     "featured_image": "/assets/project_featured_images/thehappycave1.png",
     "project_title": "The Happy Cave",
-    "project_summary": "This IOS app provides 2 main features: 1) English Tutor: The AI engine behind the backend was designed to act as an English tutor focusing on IELTS speaking practices; 2) Talkative Agent: The AI bot was created to generate hilarious jokes - just for making fun conversations. Users can select responses (i.e., text messages and associated audio files) and save them to firebase cloud and retrieve them whenever needed. There will be more features added to this app in the future when I have time and more ideas :).",
+    "project_summary": "This IOS app is made for my family to use. Currently, it provides 2 main features: 1) English Tutor: The AI engine behind the backend was designed to act as an English tutor focusing on IELTS speaking practices; 2) Talkative Agent: The AI bot was created to generate hilarious jokes - just for making fun conversations. Users can select responses (i.e., text messages and associated audio files) and save them to firebase cloud and retrieve them whenever needed. There will be more features added to this app in the future when I have time and more ideas :).",
     "github": "https://github.com/LeoUtas/thehappycave_mobile_frontend.git",
     "demo": "https://www.youtube.com/watch?v=myqkETtYNiU&t=5s",
     "figma": "",
@@ -84,6 +84,20 @@
     "figma": "",
     "featured_work": "",
     "category": ["Web Devlopment", "Highlights"],
+    "technical_tools": [
+      "React JS, Express JS, Langchain JS, Auth0, MongoDB, OPenAI"
+    ]
+  },
+  {
+    "id": 8,
+    "featured_image": "/assets/project_featured_images/thebookshelf.jpg",
+    "project_title": "",
+    "project_summary": "",
+    "github": "",
+    "demo": "",
+    "figma": "",
+    "featured_work": "",
+    "category": [],
     "technical_tools": [
       "React JS, Express JS, Langchain JS, Auth0, MongoDB, OPenAI"
     ]
