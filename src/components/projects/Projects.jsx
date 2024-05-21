@@ -6,13 +6,13 @@ const CATEGORIES = [
   { name: 'Highlights' },
   { name: 'Machine Learning' },
   { name: 'Applied AI' },
-  { name: 'Computer Vision' },
+  { name: 'Computer Vision Modeling' },
   { name: 'Data Visualization' },
   { name: 'Fundamentals' },
   { name: 'Data Analytics' },
-  { name: 'Web' },
-  { name: 'Mobile' },
-  { name: 'Game' },
+  { name: 'Web Devlopment' },
+  { name: 'Mobile Devlopment' },
+  { name: 'Tiny Projects' },
 ];
 
 function Projects() {

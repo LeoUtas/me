@@ -8,7 +8,7 @@
     "demo": "https://youtube.com/shorts/nVCGWkcglGo?si=8r8H8vd19FZYwcFf",
     "figma": "https://www.figma.com/design/t5Jt96p4rlIDbjxL7HsveU/UI-design?node-id=0%3A1&t=RZUeb5FJxSXb1q6l-1",
     "featured_work": "",
-    "category": ["Applied AI", "Highlights", "Mobile"],
+    "category": ["Highlights", "Mobile Devlopment"],
     "technical_tools": ["React Native, Flask, YOLOv8, Firebase, OpenAI"]
   },
   {
@@ -20,7 +20,7 @@
     "demo": "",
     "figma": "",
     "featured_work": "",
-    "category": ["Computer Vision"],
+    "category": ["Computer Vision Modeling"],
     "technical_tools": [
       "YOLOv8, TensorFlow, NumPy, Pandas, AWS EC2, AWS S3, WSL"
     ]
@@ -34,7 +34,7 @@
     "figma": "",
     "demo": "",
     "featured_work": "",
-    "category": ["Game"],
+    "category": ["Tiny Projects"],
     "technical_tools": ["Pygame, BeautifulSoup, NumPy, Pandas"]
   },
   {
@@ -45,7 +45,7 @@
     "github": "https://github.com/LeoUtas/Mitochondria_segmentation_research_detectron2.git",
     "demo": "",
     "featured_work": "",
-    "category": ["Applied AI", "Computer Vision"],
+    "category": ["Computer Vision Modeling"],
     "technical_tools": [
       "Detectron2, YOLOv8, OpenCV, NumPy, Pandas, Scikit-image, Leafmap, Matplotlib, Seaborn, AWS EC2, AWS S3, WSL"
     ]
@@ -59,7 +59,7 @@
     "demo": "https://todotoday0.netlify.app/",
     "figma": "",
     "featured_work": "",
-    "category": ["Web"],
+    "category": ["Web Devlopment"],
     "technical_tools": ["ReactJS, HTML, CSS, FastAPI, Supabase, OPenAI"]
   },
   {
@@ -71,7 +71,21 @@
     "demo": "https://www.youtube.com/watch?v=myqkETtYNiU&t=5s",
     "figma": "",
     "featured_work": "",
-    "category": ["Mobile", "Applied AI", "Highlights"],
+    "category": ["Mobile Devlopment", "Highlights"],
     "technical_tools": ["React Native, FastAPI, Firebase, OPenAI, ElevenLabs"]
+  },
+  {
+    "id": 7,
+    "featured_image": "/assets/project_featured_images/thebookshelf.jpg",
+    "project_title": "The Book Shelf",
+    "project_summary": "'The Book Shelf' is my first experiment with a retrieval-augmented generation (RAG) application designed to store books or documents in a vector database on MongoDB. Users can easily retrieve information from the stored documents using similarity search (i.e., search queries close to the target information). The retrieved knowledge then serves as input for a large language model (LLM) to generate the desired responses. This approach enriches the LLM with new information beyond its fixed training data, enabling it to respond based on the specific context provided.",
+    "github": "https://github.com/LeoUtas/thebookshelf_frontend.git",
+    "demo": "https://youtu.be/U-Rca9L1Qwk",
+    "figma": "",
+    "featured_work": "",
+    "category": ["Web Devlopment", "Highlights"],
+    "technical_tools": [
+      "React JS, Express JS, Langchain JS, Auth0, MongoDB, OPenAI"
+    ]
   }
 ]

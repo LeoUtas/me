@@ -65,8 +65,8 @@
 /* For making category layout (i.e., how many columns */
 .categories ul {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 1.6rem; /* Sets equal gap between grid items */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem; /* Sets equal gap between grid items */
   list-style: none; /* Removes list bullets */
   margin: 0; /* Removes default margin */
   padding: 0; /* Removes default padding */
@@ -78,7 +78,7 @@
 
 .categories .btn.category_btn {
   border: none;
-  padding: 0.8rem 1.5rem; /* Adds padding inside the button */
+  padding: 0.8rem 1.25rem; /* Adds padding inside the button */
   border-radius: 1.5rem; /* Rounds the button corners */
   color: var(--color-white);
   /* background: var(--color-bg-variant); */
@@ -112,7 +112,7 @@
     margin-right: 2rem;
   }
   .categories ul {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -125,7 +125,7 @@
     margin-right: 2rem;
   }
   .categories ul {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
