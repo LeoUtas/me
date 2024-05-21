@@ -4,7 +4,7 @@
   grid-template-columns: repeat(2, 1fr);
   transition: var(--transition);
   position: relative;
-  width: 100vw;
+  width: 100%;
 }
 
 .project_container {
@@ -36,7 +36,6 @@
 
 .project_item h3 {
   font-size: 1.65rem;
-  margin-right: 5rem;
 }
 
 .project_item p {
