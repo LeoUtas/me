@@ -100,6 +100,7 @@ function Projects() {
             project_summary,
             technical_tools,
             github,
+            youtube,
             demo,
             figma,
           }) => (
@@ -128,10 +129,20 @@ function Projects() {
                       Demo
                     </a>
                   )}
+                  {youtube && (
+                    <a
+                      href={youtube}
+                      className="btn project_btn"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Youtube
+                    </a>
+                  )}
                   {figma && (
                     <a
                       href={figma}
-                      className="btn project_btn"
+                      className="btn btn_primary project_btn"
                       target="_blank"
                       rel="noreferrer"
                     >

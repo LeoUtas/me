@@ -4,18 +4,21 @@ import skillsetData from '../../assets/data/skillset_data.json'; // import requi
 import educationData from '../../assets/data/education_data.json'; // import required data
 import experienceData from '../../assets/data/experience_data.json';
 import volunteerData from '../../assets/data/volunteer_data.json';
+import honorsawardsData from '../../assets/data/honors_awards_data.json';
 
 function About() {
   const [skills, setSkills] = useState([]);
   const [education, setEducation] = useState([]);
   const [experience, setExperience] = useState([]);
   const [volunteer, setVolunteer] = useState([]);
+  const [honorsawards, setHonorsAwards] = useState([]);
 
   useEffect(() => {
     setSkills(skillsetData);
     setEducation(educationData);
     setExperience(experienceData);
     setVolunteer(volunteerData);
+    setHonorsAwards(honorsawardsData);
   }, []);
 
   return (
@@ -74,7 +77,50 @@ function About() {
         )}
       </div>
 
-      <h3 className="section_title">My volunteer</h3>
+      <h2 className="section_title">Honors & awards</h2>
+
+      <div className="container volunteer_container">
+        {honorsawards.map(
+          ({
+            id,
+            title,
+            what_i_do,
+            where_i_do_it,
+            time,
+            location_url,
+            url,
+          }) => (
+            <article key={id} className="honor_item">
+              <h3>{title}</h3>
+              <ul className="experience_ul_item">
+                {what_i_do.map((item, index) => (
+                  <li key={index}>
+                    {`${item} @ `}
+                    <a
+                      href={location_url[index]}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="work_location">
+                        {where_i_do_it[index]}, {time[index]}
+                      </span>
+                    </a>
+                    <a
+                      href={url[index]}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Link
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </article>
+          )
+        )}
+      </div>
+
+      <h2 className="section_title">My volunteer</h2>
 
       <div className="container volunteer_container">
         {volunteer.map(({ id, title, what_i_do, where_i_do_it, time, url }) => (
