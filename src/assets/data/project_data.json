@@ -98,9 +98,9 @@
   },
   {
     "id": 8,
-    "featured_image": "/assets/project_featured_images/",
+    "featured_image": "/assets/project_featured_images/medisync.png",
     "project_title": "MediSync AI",
-    "project_summary": "With this project, my team won the DO.IT hackathon best-overall prize. Our solution enables medical professionals with no technical background to easily interact with large medical datasets and help them analyze and visualize patient historical records through natural language processing and vector databases.",
+    "project_summary": "Building this project, my team won the DO.IT hackathon best-overall prize. `\n' Medical professionals with no technical background have difficulty interacting with large medical datasets. We enable medical professionals with no technical background to easily interact with large medical datasets and help them analyze and visualize patient historical records through natural language processing and vector databases. We allow them to query and interact with their database via chatting with a MediSync agent. They can also update medical records or summarize a patient's general health. We also added visualization of general health vitals metrics collected by interacting with MediSync.",
     "github": "",
     "demo": "",
     "youtube": "https://www.youtube.com/watch?v=0E2VGkUw9dQ",
