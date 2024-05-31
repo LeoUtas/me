@@ -45,7 +45,7 @@ function Nav() {
         Experience
       </a> */}
       <a
-        href={process.env.PUBLIC_URL + '/assets/HOANG_new_resume_DS.pdf'}
+        href={process.env.PUBLIC_URL + '/assets/HOANG_resume.pdf'}
         target="_blank"
         rel="noreferrer"
       >
