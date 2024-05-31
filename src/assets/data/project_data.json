@@ -99,6 +99,21 @@
   {
     "id": 8,
     "featured_image": "/assets/project_featured_images/",
+    "project_title": "MediSync AI",
+    "project_summary": "With this project, my team won the DO.IT hackathon best-overall prize. Our solution enables medical professionals with no technical background to easily interact with large medical datasets and help them analyze and visualize patient historical records through natural language processing and vector databases.",
+    "github": "",
+    "demo": "",
+    "youtube": "https://www.youtube.com/watch?v=0E2VGkUw9dQ",
+    "figma": "",
+    "featured_work": "",
+    "category": ["Web Development", "Highlights"],
+    "technical_tools": [
+      "React JS, Express JS, Langchain JS, Auth0, MongoDB, OPenAI"
+    ]
+  },
+  {
+    "id": 8,
+    "featured_image": "/assets/project_featured_images/",
     "project_title": "",
     "project_summary": "",
     "github": "",
