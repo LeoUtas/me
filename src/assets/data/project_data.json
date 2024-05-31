@@ -108,7 +108,7 @@
     "featured_work": "",
     "category": ["Web Development", "Highlights"],
     "technical_tools": [
-      "React JS, Express JS, Langchain JS, Auth0, MongoDB, OPenAI"
+      "React JS, Express JS (Typescript), Langchain JS, MongoDB, OPenAI"
     ]
   },
   {
