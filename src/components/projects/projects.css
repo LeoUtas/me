@@ -119,11 +119,13 @@
   .project_container {
     grid-template-columns: 1fr 1fr;
   }
-
+  .project_btn {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
   .project_item {
     gap: 3rem;
   }
-
   .project_item p {
     width: 30rem;
     margin-right: 2rem;
@@ -137,11 +139,13 @@
   .project_container {
     grid-template-columns: 1fr 1fr;
   }
-
+  .project_btn {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
   .project_item {
     gap: 2rem;
   }
-
   .project_item p {
     width: 25rem;
     margin-left: 1rem;
@@ -158,11 +162,13 @@
   .project_item {
     grid-template-columns: repeat(2, 1fr);
   }
-
+  .project_btn {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
   .project_item {
     gap: 1rem;
   }
-
   .project_item P {
     width: 20rem;
     margin-left: 2rem;
@@ -172,11 +178,9 @@
     width: 15rem;
     height: 15rem;
   }
-
   .categories ul {
     grid-template-columns: repeat(2, 1fr);
   }
-
   .btn {
     font-size: 0.8rem;
   }
@@ -186,7 +190,10 @@
   .project_item {
     grid-template-columns: repeat(1, 1fr);
   }
-
+  .project_btn {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
   .project_item h3 {
     font-size: 1.25rem;
     margin-left: 2rem;
@@ -200,11 +207,9 @@
     margin-top: 2rem;
     margin-left: 2rem;
   }
-
   .btn {
     margin-left: 2rem;
   }
-
   .categories ul {
     grid-template-columns: 1fr;
   }

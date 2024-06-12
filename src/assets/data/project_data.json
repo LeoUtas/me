@@ -5,12 +5,14 @@
     "project_title": "Bird classification",
     "project_summary": "When I volunteered at a conservation center in Australia, I loved going on hikes and watching birds. I often found myself curious about the names of the different birds I encountered. I wished I have a Spell Book that can tell me the name of a bird if I showed it a photo. It led to the creation of the Bird Classification app. This is an IOS app that can classify 524 different species of birds. All you have to do is select a photo of the bird, and the app will use its image classification model to identify the bird species. Additionally, if you're logged in, you can learn a fun fact about the bird and save it to your collection for later. Check out links below for more details.",
     "github": "https://github.com/LeoUtas/bird_classification_react-native.git",
-    "demo": "https://youtube.com/shorts/nVCGWkcglGo?si=8r8H8vd19FZYwcFf",
-    "youtube": "https://youtube.com/shorts/nVCGWkcglGo?si=8r8H8vd19FZYwcFf",
+    "demo": "https://youtu.be/wF7Je4-l1L4",
+    "youtube": "https://youtu.be/wF7Je4-l1L4",
     "figma": "https://www.figma.com/design/t5Jt96p4rlIDbjxL7HsveU/UI-design?node-id=0%3A1&t=RZUeb5FJxSXb1q6l-1",
     "featured_work": "",
     "category": ["Highlights", "Mobile Development"],
-    "technical_tools": ["React Native, Flask, YOLOv8, Firebase, OpenAI"]
+    "technical_tools": [
+      "React Native, Flask, YOLOv8, TensorFlow Firebase, OpenAI"
+    ]
   },
   {
     "id": 2,
@@ -62,7 +64,7 @@
     "project_summary": "This original project helps to keep track of daily to-do list. It leverages Openai API to generate inspiring messages throughout the day. Users can add new tasks, check completed tasks, remove tasks and start a new day when the day is over. An important feature is tracking the percentage of completed tasks each day throughout history.",
     "github": "https://github.com/LeoUtas/todo_today.git",
     "demo": "https://todotoday0.netlify.app/",
-    "youtube": "",
+    "youtube": "https://youtu.be/prp0BP-fiAg",
     "figma": "",
     "featured_work": "",
     "category": ["Web Development"],
@@ -74,8 +76,8 @@
     "project_title": "The Happy Cave",
     "project_summary": "This IOS app is made for my family to use. Currently, it provides 2 main features: 1) English Tutor: The AI engine behind the backend was designed to act as an English tutor focusing on IELTS speaking practices; 2) Talkative Agent: The AI bot was created to generate hilarious jokes - just for making fun conversations. Users can select responses (i.e., text messages and associated audio files) and save them to firebase cloud and retrieve them whenever needed. There will be more features added to this app in the future when I have time and more ideas :).",
     "github": "https://github.com/LeoUtas/thehappycave_mobile_frontend.git",
-    "demo": "https://www.youtube.com/watch?v=myqkETtYNiU&t=5s",
-    "youtube": "https://www.youtube.com/watch?v=myqkETtYNiU&t=5s",
+    "demo": "https://apps.apple.com/ca/app/the-happy-cave/id6478222264",
+    "youtube": "https://youtu.be/Y292vfNmIXA",
     "figma": "",
     "featured_work": "",
     "category": ["Mobile Development", "Highlights"],
@@ -88,7 +90,7 @@
     "project_summary": "'The Book Shelf' is my first experiment with a retrieval-augmented generation (RAG) application designed to store books or documents in a vector database on MongoDB. Users can easily retrieve information from the stored documents using similarity search (i.e., search queries close to the target information). The retrieved knowledge then serves as input for a large language model (LLM) to generate the desired responses. This approach enriches the LLM with new information beyond its fixed training data, enabling it to respond based on the specific context provided.",
     "github": "https://github.com/LeoUtas/thebookshelf_frontend.git",
     "demo": "https://thebookshelf-frontend.onrender.com/",
-    "youtube": "https://youtu.be/U-Rca9L1Qwk",
+    "youtube": "https://youtu.be/Sm0ZjpWY3ZA",
     "figma": "https://www.figma.com/design/cGaUaR7DrpX11vhSmyuKvj/Frontend?node-id=0-1&t=8uSqEwqm9YQRwpHs-1",
     "featured_work": "",
     "category": ["Web Development", "Highlights"],
