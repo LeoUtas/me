@@ -16,11 +16,12 @@
     "skills": [
       "Python",
       "R",
-      "React JS, React Native, Express JS (Typescript)",
+      "ReactJS, React Native, ExpressJS (Typescript)",
       "HTML, CSS (tailwind)",
-      "MongoDB, Firebase, Supabase",
+      "MongoDB, Firebase, Supabase, Qdrant",
       "AWS (EC2, S3, RDS, Glue)",
-      "Docker, Github action"
+      "Docker, Github action",
+      "OpenAI, Langchain, Ultralytics, Tensorflow, Pytorch"
     ]
   },
   {
