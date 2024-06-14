@@ -97,6 +97,7 @@ function Projects() {
             id,
             featured_image,
             project_title,
+            note,
             project_summary,
             technical_tools,
             github,
@@ -107,6 +108,7 @@ function Projects() {
             <article key={id} className="project_item">
               <div>
                 <h3>{project_title}</h3>
+                <p>{note}</p>
                 <p>{project_summary}</p>
                 <p>Technical tools: {technical_tools}</p>
                 <div className="project_btn">
