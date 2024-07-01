@@ -12,9 +12,10 @@ function Header() {
 
         <h3>
           I'm actively looking for a developer position. I have a quantitative
-          analysis background; and have built multiple full-stack applications,
-          computer vision models, written tech blogs. The vision for my future
-          development is to dive deeper into backend engineering.
+          analysis background and have built multiple full-stack applications,
+          computer vision models, retrieval augmented generation solutions, and
+          written tech blogs. The vision for my future development is to dive
+          deeper into backend engineering.
         </h3>
 
         <Canvas className="canvas">
