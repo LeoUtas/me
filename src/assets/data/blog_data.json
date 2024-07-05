@@ -36,6 +36,15 @@
     "category": ["AI Fundamentals"]
   },
   {
+    "id": 5,
+    "blog_title": "Fundamentals of MongoDB (part 2)",
+    "blog_summary": "In this article, I present an experiment using one query for two different designs in MongoDB, with one having a significant reduction in the workload compared to the other. In other words, the query is exactly the same; however, using some optimizing techniques in the database can make a significant difference. The article also notes that understanding the business use case is the key.",
+    "github": "",
+    "devto": "https://dev.to/hoangng/fundamentals-of-mongodb-part-2-4bh8",
+    "featured_work": "",
+    "category": ["Database"]
+  },
+  {
     "id": 3,
     "blog_title": "",
     "blog_summary": "",
