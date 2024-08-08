@@ -97,7 +97,7 @@
     "featured_image": "/assets/project_featured_images/thebookshelf.jpg",
     "project_title": "The Book Shelf",
     "note": "Available to use for free 🎉",
-    "project_summary": "'The Book Shelf' is my first experiment with a retrieval-augmented generation (RAG) application designed to store books or documents in a vector database on MongoDB. Users can easily retrieve information from the stored documents using similarity search (i.e., search queries close to the target information). The retrieved knowledge then serves as input for a large language model (LLM) to generate the desired responses. This approach enriches the LLM with new information beyond its fixed training data, enabling it to respond based on the specific context provided.",
+    "project_summary": "'The Book Shelf' is a retrieval-augmented generation (RAG) application designed to store books or documents in a vector database on MongoDB. Users can easily retrieve information from the stored documents using similarity search (i.e., search queries close to the target information). The retrieved knowledge then serves as input for a large language model (LLM) to generate the desired responses. This approach enriches the LLM with new information beyond its fixed training data, enabling it to respond based on the specific context provided.",
     "github": "https://github.com/LeoUtas/thebookshelf_frontend.git",
     "demo": "https://thebookshelf-frontend.onrender.com/",
     "youtube": "https://youtu.be/Sm0ZjpWY3ZA",
@@ -126,7 +126,7 @@
   },
 
   {
-    "id": 8,
+    "id": 9,
     "featured_image": "/assets/project_featured_images/",
     "project_title": "",
     "project_summary": "",
