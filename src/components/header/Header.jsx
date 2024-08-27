@@ -14,8 +14,7 @@ function Header() {
           I'm actively looking for a developer position. I have a quantitative
           analysis background and have built multiple full-stack applications,
           computer vision models, applied artificial intelligence (AI)
-          solutions, and written tech blogs. The vision for my future
-          development is to dive deeper into backend for AI engineering.
+          solutions, and written tech blogs.
         </h3>
 
         <Canvas className="canvas">

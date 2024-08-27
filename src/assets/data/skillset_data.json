@@ -1,13 +1,18 @@
 [
   {
     "id": 1,
-    "skillset_title": "Knowledge",
+    "skillset_title": "Skills",
     "skills": [
-      "Statistics",
+      "Quantitative analysis",
       "Data visualization",
       "Machine learning",
       "Computer vision",
-      "Technical writing"
+      "Natural language processing",
+      "Software development",
+      "Technical writing",
+      "Mentoring",
+      "Interpersonal communication",
+      "Project management"
     ]
   },
   {
