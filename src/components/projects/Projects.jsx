@@ -112,14 +112,16 @@ function Projects() {
                 <p>{project_summary}</p>
                 <p>Technical tools: {technical_tools}</p>
                 <div className="project_btn">
-                  <a
-                    href={github}
-                    className="btn project_btn"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
+                  {github && (
+                    <a
+                      href={github}
+                      className="btn project_btn"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Github
+                    </a>
+                  )}
                   {/* Conditional rendering for the demo button */}
                   {demo && (
                     <a

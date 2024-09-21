@@ -11,10 +11,10 @@ function Header() {
         <h1>GOOD DAY, I'M HOANG</h1>
 
         <h3>
-          I'm actively looking for a developer position. I have a quantitative
-          analysis background and have built multiple full-stack applications,
-          computer vision models, applied artificial intelligence (AI)
-          solutions, and written tech blogs.
+          I'm actively looking for a developer position. I have an applied
+          quantitative research background and I have built multiple full-stack
+          applications including computer vision, applied artificial
+          intelligence (AI) solutions, and written tech blogs.
         </h3>
 
         <Canvas className="canvas">
