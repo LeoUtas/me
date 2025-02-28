@@ -1,7 +1,7 @@
 {
   "name": "react_portfolio",
   "version": "0.1.0",
-  "homepage": "https://LeoUtas.github.io/react_portfolio",
+  "homepage": "https://LeoUtas.github.io/me",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.77.4",

@@ -8,13 +8,12 @@ function Header() {
   return (
     <header>
       <div className="container header_container">
-        <h1>GOOD DAY, I'M HOANG</h1>
+        <h1>HOANG NGUYEN</h1>
 
         <h3>
-          I have a strong background in quantitative research with formal
-          training, and
+          Strong background in quantitative research with formal training,
+          experienced in software development, data analytics engineering
         </h3>
-        <h3>I am a developer</h3>
 
         <Canvas className="canvas">
           <Particles count={8000} />
