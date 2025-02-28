@@ -14,7 +14,7 @@ function Header() {
           I have a strong background in quantitative research with formal
           training, and
         </h3>
-        <h3>I am a problem solver</h3>
+        <h3>I am a developer</h3>
 
         <Canvas className="canvas">
           <Particles count={8000} />
