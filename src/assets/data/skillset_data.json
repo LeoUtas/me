@@ -1,17 +1,13 @@
 [
   {
     "id": 1,
-    "skillset_title": "Skills",
+    "skillset_title": "Expertise",
     "skills": [
       "Quantitative analysis",
       "Data visualization",
-      "Machine learning",
       "Computer vision",
-      "Natural language processing",
       "Software development",
-      "Technical writing",
       "Mentoring",
-      "Interpersonal communication",
       "Project management"
     ]
   },
@@ -21,9 +17,10 @@
     "skills": [
       "Python",
       "R",
-      "ReactJS, React Native, ExpressJS (Typescript)",
-      "HTML, CSS (tailwind)",
-      "MongoDB, Firebase, Supabase, Qdrant",
+      "React JS, React Native, Express JS",
+      "HTML, CSS",
+      "MongoDB, Supabase, Qdrant",
+      "Terrafom",
       "AWS (EC2, S3, RDS, Glue)",
       "Docker, Github action",
       "OpenAI, Langchain, Ultralytics, Tensorflow, Pytorch"
@@ -32,6 +29,10 @@
   {
     "id": 4,
     "skillset_title": "Area of interest",
-    "skills": ["Applied AI solutions", "Web development", "Mobile development"]
+    "skills": [
+      "Applied AI solutions",
+      "Full-stack development",
+      "Analytics Engineering"
+    ]
   }
 ]

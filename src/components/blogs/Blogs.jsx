@@ -9,7 +9,7 @@ const CATEGORIES = [
   { name: 'Computer Vision' },
   { name: 'Data Visualization' },
   { name: 'Database' },
-  { name: 'Fundamentals' },
+  { name: 'Fun Experiment' },
   { name: 'AI Fundamentals' },
   { name: 'Data Analytics' },
   { name: 'Web' },

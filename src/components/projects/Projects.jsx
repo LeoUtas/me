@@ -4,14 +4,10 @@ import projectData0 from '../../assets/data/project_data.json';
 
 const CATEGORIES = [
   { name: 'Highlights' },
-  { name: 'Machine Learning' },
   { name: 'Applied AI' },
-  { name: 'Computer Vision Modeling' },
-  { name: 'Data Visualization' },
-  { name: 'Fundamentals' },
-  { name: 'Data Analytics' },
-  { name: 'Web Development' },
-  { name: 'Mobile Development' },
+  { name: 'Computer Vision' },
+  { name: 'Analytics Engineering' },
+  { name: 'Full-stack Development' },
   { name: 'Tiny Projects' },
 ];
 
