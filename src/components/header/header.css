@@ -20,8 +20,8 @@ header {
 }
 
 .header_container h1 {
-  font-family: 'Times New Roman', san-serif;
-  font-size: 4.6rem;
+  font-family: Times-Regular;
+  font-size: 4.5rem;
   letter-spacing: 0.2rem;
 }
 
