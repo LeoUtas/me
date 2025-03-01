@@ -20,15 +20,9 @@ header {
 }
 
 .header_container h1 {
-<<<<<<< HEAD
-  font-family: Times-Regular;
-  font-size: 4.5rem;
-  letter-spacing: 0.2rem;
-=======
   letter-spacing: 0.25rem;
   font-family: Times-Regular;
   font-size: 4.5rem;
->>>>>>> newProjectPresentation
 }
 
 .header_container h3 {
