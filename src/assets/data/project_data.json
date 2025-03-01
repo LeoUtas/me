@@ -127,6 +127,22 @@
 
   {
     "id": 9,
+    "featured_image": "/assets/project_featured_images/ezez.png",
+    "project_title": "EzEz",
+    "project_summary": "EzEz is an IOS application to assist small business managers on their daily tasks. I also built an automated pipeline to simulate user and operational data, extract, load, transformed the data to AWS S3, RedShift and QuickSight for analytics tasks",
+    "github": "https://github.com/nlbuilder/ezez_backend_dev/",
+    "demo": "",
+    "youtube": "https://www.youtube.com/playlist?list=PL5ThJFywKuAkMkUhufKb6w2wZMxZ43wyI",
+    "figma": "",
+    "featured_work": "",
+    "category": ["Full-stack Development", "Highlights"],
+    "technical_tools": [
+      "React Native, Express JS, Firebase, MongoDB, AWS S3, RedShift, QuickSight, Figma"
+    ]
+  },
+
+  {
+    "id": 10,
     "featured_image": "/assets/project_featured_images/",
     "project_title": "",
     "project_summary": "",

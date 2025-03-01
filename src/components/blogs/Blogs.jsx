@@ -4,6 +4,7 @@ import blogData0 from '../../assets/data/blog_data.json';
 
 const CATEGORIES = [
   { name: 'Highlights' },
+  { name: 'Cloud Services' },
   { name: 'Machine Learning' },
   { name: 'Applied AI' },
   { name: 'Computer Vision' },

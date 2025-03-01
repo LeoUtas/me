@@ -46,6 +46,15 @@
   },
   {
     "id": 6,
+    "blog_title": "Some key concepts when working with AWS VPC (Virtual Private Cloud)",
+    "blog_summary": "I summarize some fundamental concepts of AWS VPC (Virtual Private Cloud) that I have learned from my experience. This article is intended for beginners who are new to AWS and want to understand the concepts of VPC.",
+    "github": "",
+    "devto": "https://dev.to/hoangng/some-key-concepts-when-working-with-aws-vpc-virtual-private-cloud-1b58",
+    "featured_work": "",
+    "category": ["Cloud Services", "Highlights"]
+  },
+  {
+    "id": 7,
     "blog_title": "",
     "blog_summary": "",
     "github": "",
