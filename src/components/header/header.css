@@ -20,26 +20,29 @@ header {
 }
 
 .header_container h1 {
+<<<<<<< HEAD
   font-family: Times-Regular;
   font-size: 4.5rem;
   letter-spacing: 0.2rem;
+=======
+  letter-spacing: 0.25rem;
+  font-family: Times-Regular;
+  font-size: 4.5rem;
+>>>>>>> newProjectPresentation
 }
 
 .header_container h3 {
-  font-size: 1.46rem;
+  font-size: 1.35rem;
   line-height: 2.6rem;
   font-weight: 200;
-  /* margin-top: 1.25rem; */
-  margin-top: 1rem;
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
+  margin-top: 1.25rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 
   display: flex;
   justify-content: center;
   gap: 0.5rem;
-  /* margin-bottom: 1rem; */
-  word-break: break-word;
-  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
 }
 
 .header_container .header_items {

@@ -105,7 +105,7 @@
     "featured_work": "",
     "category": ["Full-stack Development", "Highlights"],
     "technical_tools": [
-      "React JS and Express JS (Typescript), Langchain JS, Auth0, MongoDB, OPenAI"
+      "React JS and Express JS (Typescript), Langchain JS, Auth0, MongoDB, OPenAI-API"
     ]
   },
 
@@ -121,7 +121,7 @@
     "featured_work": "",
     "category": ["Full-stack Development", "Highlights"],
     "technical_tools": [
-      "React JS, Express JS (Typescript), Langchain JS, MongoDB, OPenAI"
+      "React JS, Express JS (Typescript), Langchain JS, MongoDB, OPenAI-API, Auth0"
     ]
   },
 

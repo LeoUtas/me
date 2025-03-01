@@ -3,35 +3,35 @@
     "id": 1,
     "skillset_title": "Expertise",
     "skills": [
-      "Quantitative analysis",
-      "Data visualization",
-      "Computer vision",
-      "Software development",
+      "Quantitative Research",
+      "Computer Vision",
+      "Software Development",
       "Mentoring",
-      "Project management"
+      "Project Management"
     ]
   },
   {
     "id": 2,
     "skillset_title": "Technical tools",
     "skills": [
-      "Python",
-      "R",
-      "React JS, React Native, Express JS",
-      "HTML, CSS",
-      "MongoDB, Supabase, Qdrant",
+      "SQL, Python, R",
+      "Kestra",
+      "MongoDB, PostgreSQL, Qdrant",
+      "React JS, React Native",
+      "Express JS, Flask, FastAPI",
+      "Tailwind CSS, Shadcn",
       "Terrafom",
       "AWS (EC2, S3, RDS, Glue)",
-      "Docker, Github action",
-      "OpenAI, Langchain, Ultralytics, Tensorflow, Pytorch"
+      "Git, GitHub, Docker",
+      "LangChain, LlamaIndex"
     ]
   },
   {
     "id": 4,
     "skillset_title": "Area of interest",
     "skills": [
-      "Applied AI solutions",
-      "Full-stack development",
+      "Agentic AI Solutions",
+      "Full-stack Development",
       "Analytics Engineering"
     ]
   }
