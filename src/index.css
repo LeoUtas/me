@@ -3,6 +3,12 @@
 @font-face {
   font-family: 'Times-Regular';
   src: url(./assets/fonts/Times\ Regular.ttf);
+
+  font-family: 'Bodoni';
+  src: url(./assets/fonts/bodoni-72-oldstyle-book.ttf);
+
+  font-family: 'Calibri';
+  src: url(./assets/fonts/calibri.ttf);
 }
 
 * {
