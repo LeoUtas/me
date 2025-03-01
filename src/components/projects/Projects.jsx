@@ -98,8 +98,8 @@ function Projects() {
             technical_tools,
             github,
             youtube,
-            demo,
-            figma,
+            // demo,
+            // figma,
           }) => (
             <article key={id} className="project_item">
               <div>
@@ -119,7 +119,7 @@ function Projects() {
                     </a>
                   )}
                   {/* Conditional rendering for the demo button */}
-                  {demo && (
+                  {/* {demo && (
                     <a
                       href={demo}
                       className="btn btn_primary project_btn"
@@ -128,7 +128,7 @@ function Projects() {
                     >
                       Demo
                     </a>
-                  )}
+                  )} */}
                   {youtube && (
                     <a
                       href={youtube}
@@ -139,7 +139,7 @@ function Projects() {
                       Youtube
                     </a>
                   )}
-                  {figma && (
+                  {/* {figma && (
                     <a
                       href={figma}
                       className="btn btn_primary project_btn"
@@ -148,7 +148,7 @@ function Projects() {
                     >
                       Figma
                     </a>
-                  )}
+                  )} */}
                 </div>
               </div>
 
