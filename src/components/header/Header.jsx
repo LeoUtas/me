@@ -11,8 +11,8 @@ function Header() {
         <h1>HOANG NGUYEN</h1>
 
         <h3>
-          Strong background in quantitative research with formal training,
-          experienced in software development, data analytics engineering
+          I’m a quantitative guy with formal training, plus hands-on experience
+          in software development and data analytics engineering
         </h3>
 
         <Canvas className="canvas">

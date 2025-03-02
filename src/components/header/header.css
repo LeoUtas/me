@@ -20,16 +20,16 @@ header {
 }
 
 .header_container h1 {
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.1rem;
   font-family: Times-Regular;
-  font-size: 4.5rem;
+  font-size: 3.8rem;
 }
 
 .header_container h3 {
   font-size: 1.35rem;
   line-height: 2.6rem;
   font-weight: 200;
-  margin-top: 1.25rem;
+  margin-top: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
 
@@ -37,6 +37,7 @@ header {
   justify-content: center;
   gap: 0.5rem;
   margin-bottom: 1rem;
+  letter-spacing: 0.125rem;
 }
 
 .header_container .header_items {
